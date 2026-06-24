@@ -1,0 +1,46 @@
+(async function() {
+    console.log("%c[FORENSIC_SEAL_ACTIVE] 150BPM | 6s Sub-Pulse Engaged.", "color: #ff00ff; font-weight: bold;");
+
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    const startTime = ctx.currentTime + 0.1;
+    const tempo = 150, beatDur = 60 / tempo, sixteenDur = beatDur / 4;
+
+    // Optimized sound engine
+    const play = (t, type, freq, decay, gainVal) => {
+        const o = ctx.createOscillator(), g = ctx.createGain();
+        o.type = type; o.frequency.setValueAtTime(freq, t);
+        g.gain.setValueAtTime(gainVal, t);
+        g.gain.exponentialRampToValueAtTime(0.001, t + decay);
+        o.connect(g); g.connect(ctx.destination);
+        o.start(t); o.stop(t + decay);
+    };
+
+    // Sequence loop (38 beats for 6s duration)
+    for (let i = 0; i < 38; i++) {
+        const t = startTime + (i * sixteenDur);
+        
+        // 1. KICK + SUB-WOOF (The Floor)
+        if (i % 4 === 0) {
+            play(t, 'sine', 160, 0.15, 0.6); // Kick punch
+            play(t, 'sine', 45, 0.3, 0.4);   // The Sub-Woof Foundation
+        }
+        
+        // 2. SNARE (The Flay)
+        if (i % 8 === 4) play(t, 'square', 450, 0.08, 0.3);
+        
+        // 3. HI-HAT (The Rain/Refraction)
+        play(t, 'sawtooth', 3500, 0.015, 0.05);
+
+        // Visual Synchronization
+        setTimeout(() => {
+            document.body.style.filter = `hue-rotate(${i * 20}deg) brightness(${1.2 + (i%2 * 0.3)})`;
+            document.body.style.transition = "filter 0.05s linear";
+        }, (t - ctx.currentTime) * 1000);
+    }
+
+    // Termination & Cleanup
+    setTimeout(() => {
+        document.body.style.filter = "none";
+        console.log("%c[SYSTEM_SEALED] Audit footprint finalized.", "color: #ff00ff; font-weight: bold;");
+    }, 6100);
+})();

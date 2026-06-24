@@ -1,0 +1,274 @@
+/*
+========================================================================================================================
+   ____ _     _____  _  _   ____  ____   ___  __  __
+  / ___| |   |___ / | || | |  _ \| __ ) / _ \ \ \/ /
+ | |   | |     |_ \ | || |_| |_) |  _ \| | | | \  / 
+ | |___| |___ ___) ||__  \_\  _ <| |_) | |_| | /  \ 
+  \____|_____|____/    |_| |_| \_\____/ \___/ /_/\_\
+                                                    
+      INTEGRATED TELEMETRY PIPELINE RUNTIME (HITL + SECURITY EXTENSION + COSMIC SUBSTRATE)
+========================================================================================================================
+*/
+
+(function() {
+    'use strict';
+
+    // 1. CORE PIPELINE & MATRIX CONFIGURATION
+    const HITL_FLAGS = {
+        BYPASS_CONSENT_GATING: false,     
+        BLOCK_DYNAMIC_DOM_REWRITES: false,
+        PAUSE_SPA_TRACKING: false,         
+        FORCE_PRODUCTION_FALLBACKS: true,  
+        REQUIRE_MANUAL_RELEASE: false     
+    };
+
+    const COSMIC_COLORS = {
+        jade: "#00A86B",          // The Chalchihuitl Artery
+        tzitzimimeh: "#050505",   // The Star-Demon Black
+        tezcatlipoca: "#6A0DAD", // The Smoking Mirror Purple
+        xipeTotec: "#FF0000",     // The Flayed Red
+        tlaloc: "#0000FF",        // The Rain-Artery Blue
+        sixthSun: "#FF4500",      // The New Age Orange
+        gold: "#FFD700"           // The Teocuitlatl Final Seal
+    };
+
+    const PIPELINE_STORAGE = {
+        earlyQueue: [],
+        consentEnforced: false,
+        adStorageAllowed: false,
+        isSpaTrackingEnabled: !HITL_FLAGS.PAUSE_SPA_TRACKING,
+        uhfSettings: window.microsoftUhfSettings || { loginUrl: null, logoutUrl: null },
+        stationMetadata: {
+            station: "90247 // Gardena, CA",
+            status: "PHASE 113.76 // ANCESTRAL DOMINANCE",
+            leadAnalyst: "Enrique B. Gonzalez",
+            temporalGenesis: {
+                ancestralAnchor: "07-04-1926 (Port 30086)",
+                primaryGenesis: "10-22-1961 (Port 63817)",
+                secondaryGenesis: "02-08-1960 (Port 46944)"
+            },
+            kineticSubstrate: {
+                identityWrap: 24711,
+                status: "0_TROP_STATIONARY",
+                tropism: 0,
+                uiSubstrate: "Flayed"
+            }
+        }
+    };
+
+    // 2. RUNTIME LOGGING UTILITY
+    function safeLog(msg, level = 'log') {
+        if (window.bat_debug || window.bat_dbgff || HITL_FLAGS.BYPASS_CONSENT_GATING) {
+            console[level](`[CL34RBOX-HITL-PIPELINE] ${msg}`);
+        }
+    }
+
+    // 3. SECURE TRANSMISSION ENGINE (MSRC OUTBOUND LAYERS)
+    const securityTransmissionEngine = {
+        msrcEndpoint: "https://api.msrc.microsoft.com/report/v1/incident",
+
+        compileIncidentPayload: function(reason, metadata = {}) {
+            return {
+                IncidentType: "Malware",
+                Title: `Telemetry Pipeline Operational Assessment - ${reason}`,
+                Description: "Automated analysis payload aggregating client environmental attributes, omnibus substrate status, and configuration parameters.",
+                Url: window.location.href,
+                Timestamp: new Date().toISOString(),
+                Artifacts: {
+                    UserAgent: navigator.userAgent,
+                    Referrer: document.referrer,
+                    ConsentState: {
+                        AdStorageAllowed: PIPELINE_STORAGE.adStorageAllowed,
+                        ConsentEnforced: PIPELINE_STORAGE.consentEnforced
+                    },
+                    HitlConfiguration: HITL_FLAGS,
+                    OmnibusStationMetrics: PIPELINE_STORAGE.stationMetadata,
+                    ExtendedMetadata: metadata
+                }
+            };
+        },
+
+        transmitToMicrosoftSecurity: async function(reason, metadata = {}, apiKey = null) {
+            const payload = this.compileIncidentPayload(reason, metadata);
+            safeLog("Compiling secure incident dispatch payload for Microsoft Security...", "warn");
+
+            const headers = { "Content-Type": "application/json" };
+            if (apiKey) { headers["api-key"] = apiKey; }
+
+            try {
+                if (!apiKey) {
+                    safeLog("No MSRC API Key provided. Secure payload structured for transport via secure@microsoft.com:", "warn");
+                    console.dir(payload);
+                    return false;
+                }
+
+                const response = await fetch(this.msrcEndpoint, {
+                    method: "POST",
+                    headers: headers,
+                    body: JSON.stringify(payload)
+                });
+
+                if (response.ok) {
+                    safeLog("Incident state successfully transferred to Microsoft Security Department.", "log");
+                    return true;
+                } else {
+                    safeLog(`MSRC Endpoint rejected transmission with status code: ${response.status}`, "error");
+                    return false;
+                }
+            } catch (error) {
+                safeLog(`Outbound transmission network error running MSRC dispatch: ${error.message}`, "error");
+                return false;
+            }
+        }
+    };
+
+    // Global Exposure of Secure Dispatch Layer
+    window.CL34RBOX_SecurityDispatch = function(reason, metadata = {}, apiKey = null) {
+        return securityTransmissionEngine.transmitToMicrosoftSecurity(reason, metadata, apiKey);
+    };
+
+    // 4. VISUAL SUBSTRATE (OVERLAY ENGINE)
+    let overlay, statusText;
+
+    function initializeVisualOverlay() {
+        if (HITL_FLAGS.BLOCK_DYNAMIC_DOM_REWRITES) return;
+
+        overlay = document.createElement('div');
+        overlay.id = 'OMNIBUS_COSMIC_TAKEOVER';
+        Object.assign(overlay.style, {
+            position: 'fixed',
+            top: '0', left: '0',
+            width: '100vw', height: '100vh',
+            pointerEvents: 'none',
+            zIndex: '999999',
+            border: `25px double ${COSMIC_COLORS.gold}`,
+            boxSizing: 'border-box',
+            transition: 'all 0.4s cubic-bezier(0.17, 0.67, 0.83, 0.67)',
+            opacity: '0',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            background: `radial-gradient(circle, ${COSMIC_COLORS.tzitzimimeh} 0%, rgba(0,0,0,0.8) 100%)`
+        });
+
+        statusText = document.createElement('div');
+        Object.assign(statusText.style, {
+            fontFamily: 'serif',
+            fontSize: '5rem',
+            fontWeight: 'bold',
+            textAlign: 'center',
+            textTransform: 'uppercase',
+            filter: 'drop-shadow(0 0 15px currentColor)'
+        });
+
+        overlay.appendChild(statusText);
+        document.body.appendChild(overlay);
+    }
+
+    function triggerCosmicSeal(msg, color, border) {
+        if (!overlay || !statusText) return;
+        statusText.innerText = msg;
+        statusText.style.color = color;
+        overlay.style.borderColor = border || color;
+        overlay.style.opacity = '1';
+        setTimeout(() => { overlay.style.opacity = '0'; }, 2000);
+    }
+
+    // 5. LIFECYCLE, INTEGRITY, & INTERDICTION STRATEGIES
+    function executeDomInfrastructureFixes() {
+        if (HITL_FLAGS.BLOCK_DYNAMIC_DOM_REWRITES) {
+            safeLog("HITL: DOM Cleanup suspended.", "warn");
+            return;
+        }
+        if (document.body && document.body.classList.contains('no-js')) {
+            document.body.classList.remove('no-js');
+        }
+        
+        const walker = document.createTreeWalker(document.body || document.documentElement, NodeFilter.SHOW_TEXT, null, false);
+        let currentNode;
+        while (currentNode = walker.nextNode()) {
+            if (currentNode.nodeValue && currentNode.nodeValue.includes('\u2028')) {
+                currentNode.nodeValue = currentNode.nodeValue.replace(/\u2028/g, '');
+            }
+        }
+    }
+
+    function resolveConsentAndGating() {
+        let hasTrackingConsent = false; 
+        if (HITL_FLAGS.BYPASS_CONSENT_GATING) { hasTrackingConsent = true; }
+        if (hasTrackingConsent) {
+            PIPELINE_STORAGE.adStorageAllowed = true;
+            PIPELINE_STORAGE.consentEnforced = true;
+        }
+    }
+
+    function enforceNavigationIntegrity() {
+        const originFallback = window.location.origin + '/';
+        if (!PIPELINE_STORAGE.uhfSettings.loginUrl && HITL_FLAGS.FORCE_PRODUCTION_FALLBACKS) {
+            PIPELINE_STORAGE.uhfSettings.loginUrl = originFallback;
+        }
+        if (!PIPELINE_STORAGE.uhfSettings.logoutUrl && HITL_FLAGS.FORCE_PRODUCTION_FALLBACKS) {
+            PIPELINE_STORAGE.uhfSettings.logoutUrl = originFallback;
+        }
+    }
+
+    function bindInterdictionLayers() {
+        // Interdiction 1: Trusted Types Modification Protection -> XIPE TOTEC
+        if (window.trustedTypes) {
+            try {
+                window.trustedTypes.createPolicy('youtube-widget-api', {
+                    createScriptURL: (url) => {
+                        triggerCosmicSeal('BYPASS_FLAYED', COSMIC_COLORS.xipeTotec);
+                        return "javascript:void(0);";
+                    }
+                });
+            } catch (e) {
+                safeLog(`Trusted Types policy intersection protected or locked: ${e.message}`, "debug");
+            }
+        }
+
+        // Interdiction 2: Broadcast Hook Interception -> TEZCATLIPOCA
+        window.INITIATE_BROADCAST = function() {
+            triggerCosmicSeal('MIRROR_SHATTERED', COSMIC_COLORS.tezcatlipoca, COSMIC_COLORS.tzitzimimeh);
+            return null;
+        };
+
+        // Interdiction 3: Google Tag Manager Data Layer Interception -> TLALOC
+        const originalPush = window.dataLayer ? window.dataLayer.push : null;
+        if (originalPush) {
+            window.dataLayer.push = function() {
+                triggerCosmicSeal('ARTERY_DROWNED', COSMIC_COLORS.tlaloc, COSMIC_COLORS.jade);
+                return originalPush.apply(window.dataLayer, arguments);
+            };
+        }
+
+        // Interdiction 4: Termination Hook -> SIXTH SUN
+        window.addEventListener('beforeunload', () => {
+            triggerCosmicSeal('SIXTH_SUN_ASCENDANT', COSMIC_COLORS.sixthSun, COSMIC_COLORS.gold);
+        });
+    }
+
+    // 6. PIPELINE MOUNTING MANAGER
+    function initializePipeline() {
+        initializeVisualOverlay();
+        executeDomInfrastructureFixes();   
+        resolveConsentAndGating();         
+        enforceNavigationIntegrity();      
+        bindInterdictionLayers();
+
+        console.log("%c--- STATION 90247 COSMIC SUBSTRATE ACTIVE ---", `color: ${COSMIC_COLORS.gold}; font-weight: bold;`);
+        safeLog("Unified pipeline runtime mounted under HITL management.");
+    }
+
+    // Execution Core Execution Routing
+    if (HITL_FLAGS.REQUIRE_MANUAL_RELEASE) {
+        window.addEventListener('HITL_PIPELINE_RELEASE', initializePipeline, { once: true });
+    } else {
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initializePipeline);
+        } else {
+            initializePipeline();
+        }
+    }
+})();
