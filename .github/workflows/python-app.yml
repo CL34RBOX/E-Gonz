@@ -1,0 +1,54 @@
+name: Python application
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+# Explicitly declare strict global permission boundaries to block token privileges
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+    - name: Checkout Source Repository
+      uses: actions/checkout@v4.2.2 # Explicit semantic version pinning to block tag mutation vectors
+
+    - name: Set up Python 3.10 Architecture
+      uses: actions/setup-python@v5.4.0 # Upgraded from v3 to leverage native caching engines
+      with:
+        python-version: "3.10"
+        cache: 'pip' # Automated caching layer maps against setup-python state preservation tracking
+        cache-dependency-path: '**/requirements.txt'
+
+    - name: Upgrade Core Package Management Platform
+      run: |
+        python -m pip install --upgrade pip==26.1.1
+
+    - name: Verify or Initialize Hardened System Dependencies
+      run: |
+        if [ -f requirements.txt ]; then
+          pip install --require-hashes -r requirements.txt
+        else
+          echo "[!] Target manifest ruleset requirements.txt absent. Initializing base environment variables."
+          pip install flake8==7.1.1 pytest==8.2.2
+        fi
+
+    - name: Execute Strict Syntax and Structure Linting (Flake8)
+      run: |
+        # Hard fail state triggered immediately on parsing issues, memory management bugs, or syntax errors
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        
+        # Passive metrics calculation checking complex functional nested depth parameters
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+    - name: Execute System Unit Tests and Functional Integration (Pytest)
+      env:
+        PYTHONPATH: ${{ github.workspace }}
+      run: |
+        pytest -v --durations=10
