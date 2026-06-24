@@ -1,0 +1,106 @@
+@import 'daily-check-in.css';
+@import 'gaining-points.css';
+@import 'goal-tracking.css';
+@import '../components/auto-flyout.css';
+@import '../components/flyout.css';
+
+div[data-rewards-widget].medallion.rw-dark {
+  --rw-medal-color: #a2b7f4;
+  --rw-medal-color-glow: #4a9eff;
+  --rw-font-color: #edebe9;
+  --rw-red-dot-color: #ff4c4c;
+}
+div[data-rewards-widget].medallion {
+  --rw-medal-color: #174ae4;
+  --rw-medal-color-glow: #1e90ff;
+  --rw-font-color: #333333;
+  --rw-red-dot-color: #c80000;
+  --rw-red-dot-diameter: 7px;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+div[data-rewards-widget].medallion:not(.copilotSearch) > div {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 100%;
+  padding: 0 4px;
+}
+div[data-rewards-widget].medallion:not(.copilotSearch) > div > * {
+  padding: 0 4px;
+  display: flex;
+}
+div[data-rewards-widget].medallion:not(.copilotSearch) .points-container {
+  color: var(--rw-color, var(--rw-font-color));
+  font-family: var(--rw-font-family);
+  font-feature-settings: 'tnum';
+  font-variant-numeric: tabular-nums;
+  display: inline-block;
+  text-align: right;
+}
+div[data-rewards-widget].medallion:not(.copilotSearch) div.medal {
+  position: relative;
+}
+@keyframes rw-medal-ripple {
+  0% { box-shadow: 0 0 0 0 rgba(78, 131, 246, 0), 0 0 0 2px rgba(78, 131, 246, 1); opacity: 1; }
+  20% { box-shadow: 0 0 0 2px rgba(78, 131, 246, 0.5), 0 0 0 2px rgba(78, 131, 246, 0.8); opacity: 1; }
+  50% { box-shadow: 0 0 0 6px rgba(78, 131, 246, 0.3), 0 0 0 2px rgba(78, 131, 246, 0.5); opacity: 0.8; }
+  80% { box-shadow: 0 0 0 8px rgba(78, 131, 246, 0.15), 0 0 0 2px rgba(78, 131, 246, 0.2); opacity: 0.3; }
+  100% { box-shadow: 0 0 0 12px rgba(78, 131, 246, 0), 0 0 0 2px rgba(78, 131, 246, 0); opacity: 0; }
+}
+div[data-rewards-widget].medallion.glow-medal:not(.copilotSearch):not(.frozen):not(.ocean-commotion) div.medal::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  animation: rw-medal-ripple 1s ease-out 3;
+  pointer-events: none;
+}
+div[data-rewards-widget].medallion:not(.copilotSearch) svg.medal-circled {
+  width: 32px;
+  height: 32px;
+  fill: var(--rw-color, var(--rw-medal-color));
+}
+div[data-rewards-widget].medallion svg.medal-new-level { width: 20px; height: 20px; }
+div[data-rewards-widget].medallion svg.medal-newlevel-circled { width: 32px; height: 32px; }
+div[data-rewards-widget].medallion svg.medal-circled circle { stroke: var(--rw-color, var(--rw-medal-color)); }
+div[data-rewards-widget].medallion .light-ring svg.medal-circled circle { opacity: 0.3; }
+div[data-rewards-widget].medallion svg.medal-light { width: 32px; height: 32px; fill: var(--rw-color, var(--rw-medal-color)); }
+div[data-rewards-widget].medallion .red-dot {
+  width: var(--rw-red-dot-diameter);
+  height: var(--rw-red-dot-diameter);
+  border-radius: 50%;
+  background-color: var(--rw-red-dot-color);
+  top: -3px;
+  right: 1px;
+  position: absolute;
+}
+div[data-rewards-widget].medallion .red-dot.adjacent { right: 0; top: 0; }
+div[data-rewards-widget].medallion.copilotSearch .points-container {
+  color: var(--acf-color-fore-neutral-quaternary, rgba(0, 0, 0, 0.6));
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+div[data-rewards-widget].medallion.copilotSearch .b_clickarea:hover .points-container {
+  color: var(--acf-color-fore-neutral-secondary, rgba(0, 0, 0, 0.8));
+}
+div[data-rewards-widget].medallion.copilotSearch.rw-dark .points-container {
+  color: var(--acf-color-fore-neutral-quaternary, rgba(255, 255, 255, 0.6));
+}
+div[data-rewards-widget].medallion.copilotSearch.rw-dark .b_clickarea:hover .points-container {
+  color: var(--acf-color-fore-neutral-secondary, rgba(255, 255, 255, 0.8));
+}
+div[data-rewards-widget].medallion.copilotSearch div.medal { display: flex; align-items: center; justify-content: inherit; }
+div[data-rewards-widget].medallion.copilotSearch svg.medal-circled { fill: black; height: 17px; fill-opacity: 0.6; }
+div[data-rewards-widget].medallion.copilotSearch .b_clickarea:hover svg.medal-circled { fill: #202020; fill-opacity: unset; }
+div[data-rewards-widget].medallion.copilotSearch.rw-dark svg.medal-circled { fill: white; }
+div[data-rewards-widget].medallion.copilotSearch.rw-dark .b_clickarea:hover svg.medal-circled { fill: #cfdeff; }

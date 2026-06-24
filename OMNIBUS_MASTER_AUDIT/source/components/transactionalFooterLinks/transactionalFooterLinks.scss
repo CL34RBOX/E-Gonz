@@ -1,0 +1,75 @@
+// ==============================================================================
+// OMNIBUS Component Style Matrix
+// Module: transactionalFooterLinks.scss
+// Mandate: Clean Token Interpolation & Accessibility Architecture
+// ==============================================================================
+
+// Central Language Mapping Targets
+$zh-lang-selectors: 'html[lang="zh_CN"], html[lang="zh-CN"]';
+
+.tile-transactional-footer {
+  section {
+    margin-bottom: 0.125rem; // Normalized grid mapping (2px base alignment)
+  }
+
+  .l-universal-footer-link {
+    position: relative; // Lock coordinate root frame context
+    
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    a {
+      text-decoration: none;
+      transition: box-shadow 0.2s ease-in-out;
+
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(19, 79, 143, 0.12);
+        border-radius: 3px;
+      }
+    }
+  }
+}
+
+// Regional Typography & Spacing Overrides
+#{$zh-lang-selectors} {
+  .tile-transactional-footer {
+    h3 {
+      font-size: 0.875rem;
+      font-weight: 700;
+      line-height: 1.125rem;
+    }
+  }
+}
+
+// Bidirectional Flow Mappings
+.tile-copyright-text {
+  .l-universal-footer-link {
+    margin-inline-start: 0.125rem;
+  }
+  
+  .t-icon-dot {
+    font-size: 0.313rem;
+    margin-inline-end: 0.375rem;
+  }
+}
+
+// Printing Media Strategy
+@media print {
+  .tile-transactional-footer {
+    .nonessential { 
+      display: none !important; 
+    }
+    .essential { 
+      display: block !important;
+      opacity: 0.9;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "LIBRARY_NAME": "MSAL.JS",
+  "SKU": "msal.js.common",
+  "CACHE_PREFIX": "msal",
+  "DEFAULT_AUTHORITY": "https://login.microsoftonline.com/common/",
+  "CONSUMER_UTID": "9188040d-6c67-4c5b-b112-36a304b66dad",
+  "IMDS_ENDPOINT": "http://169.254.169.254/metadata/instance/compute/location"
+}

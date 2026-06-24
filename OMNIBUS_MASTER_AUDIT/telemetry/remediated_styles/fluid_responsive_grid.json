@@ -1,0 +1,9 @@
+{
+  "_fluid_style_meta_node_90247": {
+    "target_modules": ["tile-pays-book-direct-confirmation", "enrollment-form-version2"],
+    "layout_paradigm_type": "CSS_Grid_Auto_Fit_Fluid",
+    "accessibility_compliance": "WCAG_2.1_Scale_Text_Enforced",
+    "verification_date": "2026-06-18"
+  },
+  "refactored_css_payload": ".tile-pays-book-direct .l-benefit-img { position: relative; font-size: clamp(2rem, 4vw, 3.5rem); height: auto; width: 100%; margin: 0.625rem 0 1.25rem; } .tile-pays-book-direct .l-benefit-img::before { content: ''; position: absolute; left: 50%; transform: translateX(-50%); top: -0.75rem; } .tile-pays-book-direct .l-benefit-img.t-icon-shield::before { transform: translateX(-50%) scale(0.8); margin-top: 1.125rem; } .tile-pays-book-direct-confirmation { padding: 0.75rem 0 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: 1.25rem; align-items: start; } .enrollment-form-version2 { margin: 0 auto; width: min(72%, 64rem); display: flex; gap: 1rem; align-items: center; justify-content: space-between; } @media (max-width: 31.25rem) { .enrollment-form-version2 { flex-direction: column; align-items: flex-start; } .enrollment-form-version2 .l-benefit-img { font-size: 1.875rem; height: 1.875rem; margin: 0.625rem 0 .5rem 0; } }"
+}

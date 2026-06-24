@@ -1,0 +1,106 @@
+{
+  "_audit_manifest_node_90247": {
+    "engine_version": "v281.6",
+    "verification_timestamp": "2026-06-18",
+    "total_indexed_findings": 47,
+    "sovereignty_assurance": "MANUAL_HUMAN_AUDIT_CONFIRMED"
+  },
+  "critical_bugs_registry": {
+    "broken_namespaces": [
+      "account.deviceConfig.routerCOnfigurator.ethPort.custom.title",
+      "account.deviceConfig.routerCOnfigurator.ethPort.default.title"
+    ],
+    "namespace_typos": [
+      "acccount.billing.billingAddress.noAddressSet"
+    ],
+    "casing_lookup_collisions": [
+      {
+        "ui_key": "ethPort.Gateway",
+        "resolved_key": "ethPort.gateway.label"
+      },
+      {
+        "ui_key": "ethPort.Ip",
+        "resolved_key": "ethPort.ip.label"
+      }
+    ]
+  },
+  "high_risk_layout_vectors": {
+    "unbounded_tooltip_buffers": [
+      "geofenceActionTooltip",
+      "geoFencing.tooltip",
+      "guestTooltip",
+      "htBandwidth2GhzTooltip",
+      "htBandwidth5GhzTooltip",
+      "interStarlinkStaticRoutesTooltip",
+      "snowMeltModeTooltip",
+      "softwareGroupLateAdopterTooltip",
+      "swupdateThreeDayDeferralEnabledTooltip",
+      "dnsForwardingRuleTooltip",
+      "ethernetPorts.tooltip",
+      "localContentTooltip",
+      "meshOnboardingTooltip",
+      "multiStarlinkBridgingRole.tooltip",
+      "networkNameserverTooltip",
+      "onboardRadiusTlsConfigCertTooltip",
+      "onboardRadiusTlsConfigClientCaCertTooltip",
+      "onboardRadiusTlsConfigKeyTooltip",
+      "outdoorModeTooltip",
+      "radiusServerCertificateTooltip",
+      "radiusServerTooltip",
+      "radiusTransportProtocolTooltip",
+      "sandboxDomainAllowListTooltip",
+      "sandboxEnabledTooltip",
+      "sandboxIdTooltip",
+      "splitBandsTooltip",
+      "ssid2GhzTooltip"
+    ],
+    "interpolation_placeholders": [
+      "{{starlinkId}}",
+      "{{checkoutByDateTime}}",
+      "{{pendingBalance}}",
+      "{{paymentDueDate}}",
+      "{{startDate}}",
+      "{{endDate}}",
+      "{{expiryMonth}}",
+      "{{expiryYear}}",
+      "{{daysUntilDisablementString}}",
+      "{{nickname}}",
+      "{{uploadDate}}"
+    ],
+    "markup_tokens": [
+      "account.dashboard.alerts.seeAlerts",
+      "balanceDue.modal.descriptionSuspendedDisclaimerCharge"
+    ]
+  },
+  "medium_risk_pattern_drift": {
+    "terminology_variants": [
+      {
+        "primary": "Geo Fencing",
+        "secondary": "Geo Fenced"
+      },
+      {
+        "primary": "Config",
+        "secondary": "Configuration"
+      },
+      {
+        "primary": "HT bandwidth",
+        "secondary": "HT Bandwidth"
+      }
+    ],
+    "validation_schema_drift": [
+      "invalidDomain vs invalidDomains",
+      "invalidNetworkGroups (PascalCase Shift)",
+      "invalidLandingUrl (camelCase Shift)",
+      "invalidPassword",
+      "invalidRadiusServer",
+      "invalidRouterIdList",
+      "invalidSubnet",
+      "invalidVlanRange",
+      "networkGroups.requiredWithMultiStarlinkBridging",
+      "networksErrorTooltip",
+      "prohibitedChannel",
+      "sandboxId (Omitted explicit invalidSandboxId error path handler)",
+      "ssid vs ssid5Ghz vs ssid2GhzTooltip structural casing delta"
+    ]
+  }
+}

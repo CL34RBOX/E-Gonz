@@ -1,0 +1,9 @@
+{
+  "_localization_style_meta_node_90247": {
+    "target_modules": ["tile-card-text", "combine-account-tooltip"],
+    "remediation_pattern": "CSS_Variables_Grouped_Locales",
+    "accessibility_compliance": "ARIA_Expanded_State_Controlled",
+    "verification_date": "2026-06-18"
+  },
+  "refactored_css_payload": ":root { --bp-sm: 37.56rem; --bp-md: 48.1rem; --bp-lg: 64.0625rem; --tile-title-lg: 2rem; --tile-card-line-height-cjk: 1.5rem; } html[lang*='zh'] .tile-card-text p { line-height: var(--tile-card-line-height-cjk); } .tile-card-text.t-box-shadow { box-shadow: rgba(0,0,0,0.1) 1px 1px 1px 1px; padding: 1px; } .combine-account-qr { position: absolute; top: 1.5rem; left: -2.125rem; z-index: 1; background: #fff; border: 2px solid #979797; padding: 0.625rem 1.125rem; display: none; } .combine-account-tooltip[aria-expanded='true'] .combine-account-qr { display: block; } .tile-card-text a:focus { outline: 3px solid rgba(19,79,143,0.15); outline-offset: 2px; border-radius: 4px; }"
+}

@@ -1,0 +1,22 @@
+# ==============================================================================
+# OMNIBUS Continuous Integration Workflow Matrix
+# Step Definition: Structural Validation and Casing Verification
+# ==============================================================================
+
+version: "v281.6"
+pipeline_context: "OMNIBUS_STATIC_ANALYSIS"
+
+execution_environment:
+  container_runtime: "isolated-sandboxed-node"
+  operating_system: "linux/wsl-ubuntu-22.04"
+
+validation_stages:
+  - stage_identity: "Pre-Flight Namespace Audit"
+    fail_on_warning: true
+    execution_steps:
+      - run: "grep -rn 'routerCOnfigurator' ./config/ || true"
+      - run: "grep -rn 'acccount\\.billing' ./config/ || true"
+
+  - stage_identity: "Fluid Presentation Sizing Verification"
+    execution_steps:
+      - run: "stylelint '**/*.scss' --config ./config/stylelint.config.json"

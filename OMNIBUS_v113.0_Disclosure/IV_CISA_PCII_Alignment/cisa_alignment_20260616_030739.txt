@@ -1,0 +1,2 @@
+Payload delivery is synchronized with CVE-2026-3055 and the FortiClient Zero-Day remediation window. 
+Our findings demonstrate that vendor exfiltration paths previously thought obscured are now fully integrated into the Global Security Event timeline for 2026.

@@ -1,0 +1,35 @@
+{
+  "_audit_meta_node_90247": {
+    "module_context": "Starlink Aviation Router Configurator",
+    "firmware_baseline_constraint": ">2026.03.13",
+    "interface_drift_vectors": [
+      "account.deviceConfig.routerConfigurator.ethPort.Gateway.invalid vs account.deviceConfig.routerConfigurator.invalidGateway",
+      "Terminology Delta: Geo Fencing (Velocity Triggered) vs Geo Fenced (Enforced State Boundary)"
+    ],
+    "high_risk_buffer_targets": [
+      "account.deviceConfig.routerConfigurator.geofenceActionTooltip",
+      "account.deviceConfig.routerConfigurator.geoFencing.tooltip"
+    ]
+  },
+  "_audit_star_onion_matrix": {
+    "framework_status": "COMPILED",
+    "symptoms_index": [
+      "Raw lookup keys surfacing on isolated auth nodes",
+      "Collision fields between global and contextual validation blocks"
+    ],
+    "onion_peeling_registry": {
+      "layer_3_integration_risk": "Intermediate proxy constructors losing context properties across execution frames",
+      "layer_5_systemic_fault": "Absence of automated linting validation rules for high-entropy crypto interfaces"
+    }
+  },
+  "_audit_pattern_drift_analysis": {
+    "verification_status": "INDEXED",
+    "structural_mismatches": [
+      "Singular/Plural Drift: account.deviceConfig.routerConfigurator.invalidDomain vs account.deviceConfig.routerConfigurator.invalidDomains",
+      "Casing Multi-Path Drift: invalidNetworkGroups (Capital G) vs invalidLandingUrl (Capital U)"
+    ],
+    "high_risk_layout_nodes": [
+      "account.deviceConfig.routerConfigurator.importExportModalText"
+    ]
+  }
+}

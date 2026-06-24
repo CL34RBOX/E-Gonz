@@ -1,0 +1,9 @@
+{
+  "_remediation_style_meta_node_90247": {
+    "target_modules": ["tile-pays-book-direct", "enrollment-form-version2"],
+    "remediation_pattern": "Pure_Flexbox_Logical_Properties",
+    "accessibility_compliance": "WCAG_2.1_Fluid_Layout_Enforced",
+    "verification_date": "2026-06-18"
+  },
+  "refactored_css_payload": ".tile-pays-book-direct { margin-bottom: 1.625rem; } .tile-pays-book-direct .l-benefit-img { font-size: 5rem; height: 5rem; width: 100%; margin: 0.625rem 0 1.25rem; position: relative; } .tile-pays-book-direct .l-benefit-img::before { position: absolute; left: 0; right: 0; top: -0.75rem; } .tile-pays-book-direct .l-benefit-img.t-icon-shield:before { transform: scale(0.8); margin-top: 1.125rem; } .tile-pays-book-direct .l-pay-direct-container p { font-weight: 600; margin: 0; font-size: 1.25rem; } :is(html[lang='zh_CN'], html[lang='zh-CN']) .tile-pays-book-direct { line-height: 1.15; } html[dir='rtl'] .tile-pays-book-direct .l-benefit-img { margin-bottom: 1.875rem; } @media (min-width: 48.1rem) { .tile-pays-book-direct, .tile-pays-book-direct-confirmation { display: flex; justify-content: center; margin-bottom: 1.4rem; gap: 1.25rem; } .tile-pays-book-direct .l-pay-direct-container, .tile-pays-book-direct-confirmation .l-pay-direct-container { flex: 1; margin: 0; } } .enrollment-form-version2 { margin: auto; width: 72%; display: flex; justify-content: space-between; align-items: center; } @media screen and (max-width: 64.06rem) { .enrollment-form-version2 { width: 85%; } .enrollment-form-version2 p { font-size: 1rem !important; padding: 0 10px; } } @media screen and (max-width: 31.25rem) { .enrollment-form-version2 p { font-size: 0.875rem !important; padding: 0 8px; } }"
+}

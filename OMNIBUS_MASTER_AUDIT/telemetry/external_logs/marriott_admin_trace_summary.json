@@ -1,0 +1,42 @@
+{
+  "_audit_log_manifest_node_90247": {
+    "target_origin": "https://www.marriott.com/mi-admin.com",
+    "ingestion_timestamp": "2026-06-18",
+    "manual_verification_status": "COMPLETED",
+    "forensic_source": "Browser Console & Network Trace Stack"
+  },
+  "critical_routing_failures": {
+    "endpoint_target": "https://www.marriott.com/mi-admin.com",
+    "http_status_result": 404,
+    "protocol_layer": "HTTP/2",
+    "latency_delta_ms": 1200
+  },
+  "runtime_exceptions_inventory": [
+    {
+      "timestamp": "03:10:59.646",
+      "exception_class": "TypeError",
+      "message": "can't access property \"style\", element is null",
+      "root_mechanism": "Un-guarded document query execution against missing DOM target selectors"
+    }
+  ],
+  "state_storage_anomalies": {
+    "rejected_cookie_tokens": [
+      "acts",
+      "acti",
+      "actn",
+      "actis",
+      "_fbp",
+      "dTValidationCookie"
+    ],
+    "rejection_mechanism": "Invalid domain assignment targeting mi-admin.com origin scope boundary mismatch"
+  },
+  "third_party_telemetry_footprint": [
+    "Adobe Launch / Adobe Analytics",
+    "Demdex / Adobe Audience Manager",
+    "Dynatrace Core Monitor",
+    "FullStory User Session Recorder",
+    "Facebook Pixel Tracking Vector",
+    "Medallia Feedback Wrapper",
+    "Qualtrics Insight Capture"
+  ]
+}

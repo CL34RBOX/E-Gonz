@@ -1,0 +1,63 @@
+17:09:03.199 VM8:17 true
+(anonymous) @ VM9:24
+$ @ VM9:274
+apply @ VM9:24
+(anonymous) @ VM8:6
+u @ VM8:6
+(anonymous) @ VM8:6
+(anonymous) @ VM8:6
+(anonymous) @ VM9:24
+$ @ VM9:274
+apply @ VM9:24
+dtAWF @ VM52:252
+XMLHttpRequestCallback @ VM52:901
+J @ VM52:883
+dtAWF @ VM52:252
+send @ VM52:900
+He @ VM52:861
+Va.t.send @ VM52:868
+Ac @ VM90:1
+Ic @ VM90:1
+(anonymous) @ VM90:1
+(anonymous) @ VM90:1
+(anonymous) @ VM90:1
+(anonymous) @ VM9:24
+$ @ VM9:274
+apply @ VM9:24
+(anonymous) @ VM8:6
+u @ VM8:6
+(anonymous) @ VM8:6
+(anonymous) @ VM8:6
+17:09:04.077 VM9:24  Uncaught (in promise) TypeError: [alloy] [DataCollector] An error occurred while executing the sendEvent command.
+Caused by: Network request failed.
+Caused by: Failed to fetch
+    at VM9:24:456
+    at Vf.$ (VM9:274:490)
+    at Object.apply (VM9:24:444)
+    at VM8:6:12164
+    at u (VM8:6:2906)
+    at VM8:6:3282
+    at VM8:6:19636
+(anonymous) @ VM9:24
+$ @ VM9:274
+apply @ VM9:24
+(anonymous) @ VM8:6
+u @ VM8:6
+(anonymous) @ VM8:6
+(anonymous) @ VM8:6
+17:09:11.535 The Content-Security-Policy directive 'default-src' contains the keyword 'none' alongside with other source expressions. The keyword 'none' must be the only source expression in the directive value, otherwise it is ignored.
+17:09:13.443 Fetch finished loading: POST "<URL>".
+17:09:13.443 XHR finished loading: POST "<URL>".
+17:09:13.633 Fetch failed loading: POST "<URL>".
+17:09:13.757 XHR finished loading: GET "<URL>".
+17:09:11.202 The Content-Security-Policy directive 'default-src' contains the keyword 'none' alongside with other source expressions. The keyword 'none' must be the only source expression in the directive value, otherwise it is ignored.
+17:09:11.204 The Content-Security-Policy directive 'default-src' contains the keyword 'none' alongside with other source expressions. The keyword 'none' must be the only source expression in the directive value, otherwise it is ignored.
+17:09:11.269 (index):1 The Content-Security-Policy directive 'default-src' contains the keyword 'none' alongside with other source expressions. The keyword 'none' must be the only source expression in the directive value, otherwise it is ignored.
+17:09:11.418 Fetch finished loading: GET "<URL>".
+PendingScript
+XMLHttpRequest.send
+17:09:13.634 Tracking Prevention blocked access to storage for <URL>.
+17:09:14.055 rul?tid=G-7JXJJ2JF12&gacid=799876922.1778544554&gtm=45je54b0v9166611554za204&dma=0&gcd=13l3l3l3l1l1…:1  Failed to load resource: the server responded with a status of 404 ()
+17:09:14.114 activityi;fledge=1;src=2549153;type=allv40;cat=all_a00;ord=483149298257;npa=0;auiddc=1965093988.177…:1  Failed to load resource: the server responded with a status of 404 ()
+17:09:25.543 Tracking Prevention blocked access to storage for <URL>.
+PendingScript

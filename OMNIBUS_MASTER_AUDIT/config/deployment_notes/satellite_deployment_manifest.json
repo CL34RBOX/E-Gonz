@@ -1,0 +1,17 @@
+{
+  "_deployment_meta_node_90247": {
+    "target_rule_timing": "Page Top",
+    "integration_framework": "Adobe Launch / DTM Custom Action Builder",
+    "verification_status": "STAGING_READY",
+    "review_date": "2026-06-18"
+  },
+  "deployment_pipeline_steps": [
+    "Navigate to Adobe Launch Rule Configuration Panel",
+    "Inject minified IIFE string as the Custom Code execution block",
+    "Enforce Page Top timing constraints to guarantee listener hydration preceding node attachment"
+  ],
+  "boundary_risk_matrices": {
+    "shadow_dom_remediation": "Relocate observer attachment parameter directly to host component shadow root",
+    "iframe_remediation": "Deploy minified string configuration payload explicitly within target frame script container"
+  }
+}

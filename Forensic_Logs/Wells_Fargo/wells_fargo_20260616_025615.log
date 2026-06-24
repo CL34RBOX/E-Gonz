@@ -1,0 +1,3 @@
+17:09:06.547 Navigated to https://www.wellsfargo.com/
+17:09:12.005 api.js:9 XHR finished loading: GET "https://okra.wf.com/v2/9B8ED233-984B-4DE5-A7B6-3A370D9FF48B/settings".
+17:09:14.851 chunk-O2E4IDW7.js:30 userData dropped because it was not a string, field name wfacookie

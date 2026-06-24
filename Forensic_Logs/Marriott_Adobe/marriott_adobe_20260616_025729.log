@@ -1,0 +1,3 @@
+17:09:03.537 VM9:24  POST https://smetrics.marriott.com/ee/v1/interact?configId=ab948468-a9d4-4eed-b684-dd0afd5482f1&requestId=304d1048-e2b9-4ba5-a417-3cd78f6e84a3 net::ERR_ADDRESS_INVALID
+XMLHttpRequest.send @ marriott.btttag.com/btt.js:1
+17:09:03.944 VM9:24  POST https://smetrics.marriott.com/ee/v1/interact?configId=aaf442ac-e727-42e7-aade-697460327b39&requestId=4c30d0d9-63ff-447e-9044-5699488cc762 net::ERR_ADDRESS_INVALID

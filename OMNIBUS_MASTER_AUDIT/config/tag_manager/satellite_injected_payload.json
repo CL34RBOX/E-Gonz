@@ -1,0 +1,9 @@
+{
+  "_payload_metadata_node_90247": {
+    "target_framework_method": "_satellite._registerScript",
+    "target_selector_identity": "#guestsrooms",
+    "minification_baseline_status": "VERIFIED_DIFF_READY",
+    "compilation_date": "2026-06-18"
+  },
+  "production_payload_string": "(function(){var el=document.getElementById('guestsrooms');if(el){el.style.display='block';return;}var observer=new MutationObserver(function(m,obs){var e=document.getElementById('guestsrooms');if(e){e.style.display='block';obs.disconnect();}});observer.observe(document.documentElement,{childList:true,subtree:true});setTimeout(function(){observer.disconnect();console.warn('guestsrooms not found after 10000ms');},10000);})();"
+}

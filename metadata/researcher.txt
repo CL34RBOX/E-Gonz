@@ -1,0 +1,4 @@
+Researcher: Enrique Gonzalez
+Contact:    ps.ebgonzalez@outlook.com
+Program:    Apple Bug Bounty
+Review:     Manual Source Code Review — Publicly Observable Behavior

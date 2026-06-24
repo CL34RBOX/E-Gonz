@@ -1,0 +1,23 @@
+{
+  "_extension_audit_meta_node_90247": {
+    "uri_scheme_target": "moz-extension://",
+    "script_payload_entry": "/inject/main.js",
+    "verification_routing_pane": "about:debugging#/runtime/this-firefox",
+    "audit_baseline_date": "2026-06-18"
+  },
+  "forensic_demarcation_rules": {
+    "origin_isolation_status": "LOCAL_CLIENT_RUNTIME_INJECTION",
+    "server_infrastructure_impact": "ZERO_IMPACT (Request does not hit upstream servers)",
+    "vulnerability_classification": "Client Profile Noise Generation / Script Race Condition"
+  },
+  "remediation_verification_checklist": [
+    "Load browser target page within a clean Firefox profile via 'firefox -P' shell switch",
+    "Execute target hydration test under Private Browsing context with extension access flags revoked",
+    "Correlate profile-specific randomized GUID string against the internal debugging runtime table"
+  ],
+  "_audit_origin_verification_delta": {
+    "execution_context": "Gecko Content Script Sandbox Injection",
+    "isolation_boundary": "Isolated Client Profile Space",
+    "fingerprint_mitigation": "Local GUID Randomization Enforced"
+  }
+}

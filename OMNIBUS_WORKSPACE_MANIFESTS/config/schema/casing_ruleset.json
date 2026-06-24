@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OMNIBUS_Casing_Ruleset_Manifest",
+  "description": "Enforces strict interface property normalization constraints to block translation leak vectors.",
+  "type": "object",
+  "required": [
+    "targetNamespace",
+    "enforceStrictCamelCase",
+    "unboundedTooltipBufferLimit"
+  ],
+  "properties": {
+    "targetNamespace": {
+      "type": "string",
+      "pattern": "^account\\.[a-zA-Z]+(\\.[a-zA-Z]+)*$"
+    },
+    "enforceStrictCamelCase": {
+      "type": "boolean",
+      "default": true
+    },
+    "unboundedTooltipBufferLimit": {
+      "type": "integer",
+      "maximum": 150
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_ticket_metadata_node_90247": {
+    "sprint_context": "Infra & Frontend Stabilisation",
+    "target_release_baseline": "v281.6-Hotfix",
+    "generation_mode": "MANUAL_HUMAN_AUDIT_CONFIRMED"
+  },
+  "jira_tickets": [
+    {
+      "id": "OMNI-404-01",
+      "summary": "[P0] 404 on /mi-admin.com — initial GET returns 404",
+      "component": "Infrastructure / Backend Routing",
+      "description": "The initial page load request for /mi-admin.com returns an HTTP/2 404 error, halting application hydration downstream.",
+      "acceptance_criteria": "The endpoint /mi-admin.com returns HTTP 200 OK or an explicit verified redirection route on a fresh browser reload."
+    },
+    {
+      "id": "OMNI-JS-02",
+      "summary": "[P0] Runtime JS Error — Null Pointer accessing element style property",
+      "component": "Frontend Architecture",
+      "description": "Asynchronous application initialisation scripts attempt to read and write properties on null selector returns, resulting in an Uncaught TypeError.",
+      "acceptance_criteria": "All DOM manipulation targets are securely wrapped behind variable existence checks before invoking sub-properties or event bindings."
+    },
+    {
+      "id": "OMNI-AUTH-03",
+      "summary": "[P1] Cookie Domain Rejection Error — Origin Mismatch on mi-admin.com",
+      "component": "Security / Token Management",
+      "description": "Multiple core validation and telemetry cookies (acts, acti, dTValidationCookie) are rejected by the browser due to invalid domain assignment.",
+      "acceptance_criteria": "Cookie scope configurations match the issuing domain context explicitly or omit domain parameter declarations completely."
+    }
+  ]
+}
