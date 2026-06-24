@@ -1,0 +1,6 @@
+# Core Serverless Framework
+azure-functions==1.23.0
+
+# Dynamic Static Analysis & Quality Diagnostics Engine Tools
+flake8==7.1.1
+pytest==8.2.2
