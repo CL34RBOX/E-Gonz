@@ -1,0 +1,1662 @@
+23:09:49.547 lpButton detected iframe-cs.html:2963:33
+23:10:45.849 [OMNIBUS] Deploying Final-Stage Beacon Suppression... debugger eval code:2:13
+23:10:45.850 [OMNIBUS] All Egress Channels Null-Routed. debugger eval code:21:13
+23:11:18.710 UHF 1.1 not found after timeout: uhf-header uhf-actions msochead.js:226:1547
+23:19:36.490 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782281976490&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+23:19:36.503 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782281976503&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+23:39:30.765 [OMNIBUS] Binding rabbit node: tracking_beacon_suppressor debugger eval code:19:21
+23:39:30.766 [OMNIBUS] Anchoring signal to ledger: azure_marketing_substrate debugger eval code:39:21
+23:39:30.766 Vault Entry: 
+Object { timestamp: "2026-06-24T06:39:30.766Z", node: "azure_marketing_substrate", sig: "eyJzdGF0dXMiOiJIQVJERU5FRCIsImVncmVzcyI6Ik5VTExfUk9VVEVEIiwiaW50ZWdyaXR5IjoiVkVSSUZJRUQifQ==" }
+debugger eval code:64:9
+23:44:22.716 WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER. clarity.context.js:1:1930
+23:45:37.479 [OMNIBUS] Initiating Substrate Flaying... debugger eval code:2:13
+23:45:37.480 [OMNIBUS] Shadow root inaccessible. Re-evaluating injection. debugger eval code:26:17
+23:46:30.540 [OMNIBUS] Deploying MutationObserver for Substrate Flaying... debugger eval code:2:13
+23:46:56.781 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://edge.adobedc.net/ee/or2/v1/interact?configId=be6261fc-e7c3-4072-9329-bdd18dbb3a77&requestId=6edfb1a0-abf7-4511-b286-3d885a4336d3 interact
+23:46:57.568 Strict-Transport-Security: The site specified a header that could not be parsed successfully. token
+23:47:34.052 [OMNIBUS] Redirecting Observer to DirectLine stream... debugger eval code:2:13
+23:47:38.136 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://edge.adobedc.net/ee/or2/v1/interact?configId=be6261fc-e7c3-4072-9329-bdd18dbb3a77&requestId=582fe885-2a3c-4e3c-b157-ac79340ab12a interact
+23:47:38.516 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782283658516&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+23:47:45.176 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782283665177&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+23:47:55.263 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782283675264&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+23:48:12.751 [OMNIBUS] Deploying WebSocket Interceptor... debugger eval code:2:13
+23:48:12.752 [OMNIBUS] WebSocket Interceptor Active. debugger eval code:29:13
+23:48:33.087 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782283713087&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+23:48:44.320 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782283724320&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+23:49:18.524 [OMNIBUS] Injecting WebSocket Interceptor Protocol... debugger eval code:2:13
+23:49:18.526 [OMNIBUS] WebSocket Hijack Active. debugger eval code:28:13
+23:49:34.326 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782283774326&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+23:49:45.453 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782283785453&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+23:50:08.872 [OMNIBUS] RUM Collector Hooked. debugger eval code:17:13
+23:50:36.469 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782283836470&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+23:50:47.774 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782283847774&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+23:51:37.510 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782283897510&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+23:51:48.630 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782283908631&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+23:52:39.344 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782283959344&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+23:52:50.538 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782283970539&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+00:02:03.147 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782284523147&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+00:14:12.102 WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER. clarity.context.js:1:1930
+00:14:13.037 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782285253038&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+00:14:16.143 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782285256144&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+00:14:16.144 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782285256145&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+00:14:16.145 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782285256146&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+00:15:16.334 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782285316334&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+00:15:17.336 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782285317336&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+00:16:17.635 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782285377636&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+00:16:18.656 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782285378655&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+00:17:03.841 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782285423841&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+00:17:18.975 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782285438976&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+00:17:19.999 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782285439999&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+00:18:20.805 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782285500805&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+00:18:22.829 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782285502830&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21
+00:28:38.502 WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER. clarity.context.js:1:1930
+00:28:42.901 XHRPOST
+https://a.clarity.ms/collect
+[HTTP/1.1 204 No Content 74ms]
+
+00:28:45.582 XHRPOST
+https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID=ef4ddc634bd649ab9ce3c5b591501b13&HASH=ef4d&LV=202606&V=4&LU=1780286702553&w=0
+[HTTP/2 200  86ms]
+
+00:28:45.588 XHROPTIONS
+https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID=ef4ddc634bd649ab9ce3c5b591501b13&HASH=ef4d&LV=202606&V=4&LU=1780286702553&w=0
+[HTTP/2 200  78ms]
+
+00:28:45.800 XHRPOST
+https://a.clarity.ms/collect
+[HTTP/1.1 204 No Content 74ms]
+
+00:28:47.938 XHRPOST
+https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID=ef4ddc634bd649ab9ce3c5b591501b13&HASH=ef4d&LV=202606&V=4&LU=1780286702553&w=0
+[HTTP/2 200  85ms]
+
+00:28:47.941 XHROPTIONS
+https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID=ef4ddc634bd649ab9ce3c5b591501b13&HASH=ef4d&LV=202606&V=4&LU=1780286702553&w=0
+[HTTP/2 200  79ms]
+
+00:29:41.362 XHRPOST
+https://bat.bing.com/p/conversions/c/p
+[HTTP/1.1 204 No Content 93ms]
+
+00:29:43.560 XHRPOST
+https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID=ef4ddc634bd649ab9ce3c5b591501b13&HASH=ef4d&LV=202606&V=4&LU=1780286702553&w=0
+[HTTP/2 200  157ms]
+
+00:29:43.563 XHROPTIONS
+https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID=ef4ddc634bd649ab9ce3c5b591501b13&HASH=ef4d&LV=202606&V=4&LU=1780286702553&w=0
+[HTTP/2 200  74ms]
+
+00:29:46.652 XHRPOST
+https://a.clarity.ms/collect
+[HTTP/1.1 204 No Content 235ms]
+
+00:29:48.956 XHRPOST
+https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID=ef4ddc634bd649ab9ce3c5b591501b13&HASH=ef4d&LV=202606&V=4&LU=1780286702553&w=0
+[HTTP/2 200  80ms]
+
+00:29:48.962 XHROPTIONS
+https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID=ef4ddc634bd649ab9ce3c5b591501b13&HASH=ef4d&LV=202606&V=4&LU=1780286702553&w=0
+[HTTP/2 200  74ms]
+
+00:29:58.247 /**
+ * OMNIBUS: Deep-State Egress Lockdown
+ * Purpose: Recursively freeze the telemetry objects to prevent re-binding.
+ */
+(function lockSubstrate() {…
+00:29:58.309 [OMNIBUS] Deep-State Lockdown Active. debugger eval code:15:13
+00:29:58.310 undefined
+00:29:59.367 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:29:59.369 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ja https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ya https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ra https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:30:42.359 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:30:42.360 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    vn https://bat.bing.com/p/conversions/s/0.8.66:1
+    gn https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    r https://bat.bing.com/p/conversions/s/0.8.66:1
+    promise callback*s https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    gn https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    Pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+0.8.66:1:22148
+00:30:52.505 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:30:52.506 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ja https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ya https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ra https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:31:43.360 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:31:43.362 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    vn https://bat.bing.com/p/conversions/s/0.8.66:1
+    gn https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    r https://bat.bing.com/p/conversions/s/0.8.66:1
+    promise callback*s https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    gn https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    Pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+0.8.66:1:22148
+00:31:53.508 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:31:53.510 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ja https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ya https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ra https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:31:59.841 [OMNIBUS] Blocked access to XMLHttpRequest 2 debugger eval code:10:41
+00:32:16.956 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ja https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ya https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ra https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:32:19.852 [OMNIBUS] Blocked access to XMLHttpRequest 3 debugger eval code:10:41
+00:32:44.363 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    vn https://bat.bing.com/p/conversions/s/0.8.66:1
+    gn https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    r https://bat.bing.com/p/conversions/s/0.8.66:1
+    promise callback*s https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    gn https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    Pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+0.8.66:1:22148
+00:32:59.877 [OMNIBUS] Blocked access to XMLHttpRequest 2 debugger eval code:10:41
+00:33:17.956 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ja https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ya https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ra https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:33:19.888 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:33:39.366 POST
+https://bat.bing.com/p/conversions/c/p
+[HTTP/1.1 204 No Content 250ms]
+
+00:33:39.899 [OMNIBUS] Blocked access to XMLHttpRequest 3 debugger eval code:10:41
+00:34:18.957 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ja https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ya https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ra https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:34:19.920 [OMNIBUS] Blocked access to XMLHttpRequest 2 debugger eval code:10:41
+00:34:46.444 23:09:49.547 lpButton detected iframe-cs.html:2963:33
+23:10:45.849 [OMNIBUS] Deploying Final-Stage Beacon Suppression... debugger eval code:2:13
+23:10:45.850 [OMNIBUS] All Egress Channels Null-Routed. debugger eval code:21:13
+23:11:18.710 UHF 1.1 not found after timeout: uhf-header uhf-actions msochead.js:226:1547
+23:19:36.490 [OMNIBUS] Blocked Beacon telemetry to: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=c72e6b24df604532a6282edd268b4ba4-9cdee1fe-5d2f-4626-9620-dbad9b53a8e5-8065&upload-time=1782281976490&ext.intweb.msfpc=GUID%3Def4ddc634bd649ab9ce3c5b591501b13%26HASH%3Def4d%26LV%3D202606%26V%3D4%26LU%3D1780286702553&time-delta-to-apply-millis=2538&w=0&NoResponseBody=true debugger eval code:8:21…
+00:34:46.525 Uncaught SyntaxError: unexpected token: ':' debugger eval code:1:3
+00:34:59.941 [OMNIBUS] Blocked access to XMLHttpRequest 3 debugger eval code:10:41
+00:35:19.958 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ja https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ya https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ra https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:35:25.780 IF folder.inheritance = enabled:
+disable inheritance ()
+convert permissions ()
+IF "Users" in ACL:
+remove ("Users")…
+00:35:25.856 Uncaught SyntaxError: unexpected token: identifier debugger eval code:1:4
+00:35:39.962 [OMNIBUS] Blocked access to XMLHttpRequest 4 debugger eval code:10:41
+00:36:20.957 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ja https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ya https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ra https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:36:39.992 [OMNIBUS] Blocked access to XMLHttpRequest 2 debugger eval code:10:41
+00:37:08.962 POST
+https://a.clarity.ms/collect
+[HTTP/1.1 204 No Content 518ms]
+
+00:37:20.013 [OMNIBUS] Blocked access to XMLHttpRequest 3 debugger eval code:10:41
+00:38:03.263 /**
+ * OMNIBUS: Substrate Metadata Extractor
+ * Purpose: Capture current page forensic profile.
+ */
+(function captureSubstrate() {…
+00:38:03.335 console.table() debugger eval code:15:13
+(index)	Values
+url	https://azure.microsoft.com/en-us
+origin	https://azure.microsoft.com
+path	/en-us
+userAgent	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0
+cookiesEnabled	true
+timestamp	2026-06-24T07:38:03.336Z
+00:38:03.337
+Object { url: "https://azure.microsoft.com/en-us", origin: "https://azure.microsoft.com", path: "/en-us", userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0", cookiesEnabled: true, timestamp: "2026-06-24T07:38:03.336Z" }
+
+00:38:20.045 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:38:24.179 /**
+ * OMNIBUS: DOM Shard Generator
+ * Purpose: Export critical node identifiers for forensic review.
+ */
+(function snapshotDOM() {…
+00:38:24.268 [OMNIBUS] DOM Shard captured: 
+Array(181) [ {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, … ]
+debugger eval code:12:13
+00:38:24.272
+Array(181) [ {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, … ]
+
+00:38:40.056 [OMNIBUS] Blocked access to XMLHttpRequest 2 debugger eval code:10:41
+00:39:03.068 GET
+https://scripts.clarity.ms/0.8.66/clarity.context.js
+[HTTP/2 200  260ms]
+
+00:39:03.163 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:39:03.164 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    vn https://bat.bing.com/p/conversions/s/0.8.66:1
+    gn https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    r https://bat.bing.com/p/conversions/s/0.8.66:1
+    promise callback*s https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    gn https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    yn https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    yn https://bat.bing.com/p/conversions/s/0.8.66:1
+    _n https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    ua https://bat.bing.com/p/conversions/s/0.8.66:1
+    ua https://bat.bing.com/p/conversions/s/0.8.66:1
+    ra https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    $n https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+0.8.66:1:22148
+00:39:03.172 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:39:03.173 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    bi https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    bi https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ei https://scripts.clarity.ms/0.8.66/clarity.js:2
+    start https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+    bo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    co https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ja https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ya https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ra https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:39:03.400 WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER. clarity.context.js:1:1891
+00:39:04.300 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:39:04.302 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    bi https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    bi https://scripts.clarity.ms/0.8.66/clarity.js:2
+    si https://scripts.clarity.ms/0.8.66/clarity.js:2
+    si https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yi https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:39:20.078 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:39:31.992 /**
+ * OMNIBUS: Emergency RUM Kill-Switch
+ */
+(function killCollector() {
+    window.sampleRUM = {…
+00:39:32.069 [OMNIBUS] Telemetry collector neutralized on current page. debugger eval code:9:13
+00:39:32.069 undefined
+00:39:37.327 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:39:37.327 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ja https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ya https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ra https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    co https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yi https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    jr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    jr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    start https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:39:40.088 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:39:43.296 [OMNIBUS] Blocked access to fetch debugger eval code:10:41
+00:40:00.098 [OMNIBUS] Blocked access to XMLHttpRequest 2 debugger eval code:10:41
+00:40:04.063 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    vn https://bat.bing.com/p/conversions/s/0.8.66:1
+    gn https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    r https://bat.bing.com/p/conversions/s/0.8.66:1
+    promise callback*s https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    gn https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    Pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    yn https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    yn https://bat.bing.com/p/conversions/s/0.8.66:1
+    _n https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    ua https://bat.bing.com/p/conversions/s/0.8.66:1
+    ua https://bat.bing.com/p/conversions/s/0.8.66:1
+    ra https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    $n https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+0.8.66:1:22148
+00:40:20.108 [OMNIBUS] Blocked access to XMLHttpRequest 2 debugger eval code:10:41
+00:40:38.329 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ja https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ya https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ra https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    co https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yi https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    jr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    jr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    start https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:40:40.119 [OMNIBUS] Blocked access to XMLHttpRequest 2 debugger eval code:10:41
+00:40:42.586 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ja https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ya https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ra https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    co https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yi https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    jr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    jr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    start https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:41:00.129 [OMNIBUS] Blocked access to XMLHttpRequest 2 debugger eval code:10:41
+00:41:05.064 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    vn https://bat.bing.com/p/conversions/s/0.8.66:1
+    gn https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    r https://bat.bing.com/p/conversions/s/0.8.66:1
+    promise callback*s https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    gn https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    Pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    yn https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    yn https://bat.bing.com/p/conversions/s/0.8.66:1
+    _n https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    ua https://bat.bing.com/p/conversions/s/0.8.66:1
+    ua https://bat.bing.com/p/conversions/s/0.8.66:1
+    ra https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    $n https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+0.8.66:1:22148
+00:41:20.140 [OMNIBUS] Blocked access to XMLHttpRequest 3 debugger eval code:10:41
+00:41:43.589 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ja https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ya https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ra https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    co https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yi https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    jr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    jr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    start https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:42:00.160 [OMNIBUS] Blocked access to XMLHttpRequest 2 debugger eval code:10:41
+00:42:06.066 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    vn https://bat.bing.com/p/conversions/s/0.8.66:1
+    gn https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    r https://bat.bing.com/p/conversions/s/0.8.66:1
+    promise callback*s https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    gn https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    Pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    yn https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    yn https://bat.bing.com/p/conversions/s/0.8.66:1
+    _n https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    ua https://bat.bing.com/p/conversions/s/0.8.66:1
+    ua https://bat.bing.com/p/conversions/s/0.8.66:1
+    ra https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    $n https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+0.8.66:1:22148
+00:42:16.728 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:42:16.730 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ja https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ya https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ra https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    co https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yi https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    jr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    jr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    start https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:42:20.170 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:42:28.746 /**
+ * 90247_OMNIBUS_COSMIC_TAKEOVER.js
+ * AUTHOR: Enrique B. Gonzalez III (CajaCl34r)
+ * STATION: 90247 // Gardena, CA
+ * STATUS: PHASE 113.76 // ANCESTRAL DOMINANCE…
+00:42:28.837 --- STATION 90247 COSMIC SUBSTRATE ACTIVE --- debugger eval code:91:13
+00:42:28.838 [OMNIBUS] DirectLine substrate breach confirmed. debugger eval code:12:21
+00:42:28.839 [OMNIBUS] Anchoring signal to ledger: directline_stream_shards debugger eval code:39:21
+00:42:28.839 console.table() debugger eval code:23:21
+(index)	Values
+timestamp	2026-06-24T07:42:28.839Z
+node	directline_stream_shards
+sig	eyJzdHJlYW1TdGF0ZSI6IkFDVElWRSIsImVuZHBvaW50IjoiZGlyZWN0bGluZS5ib3RmcmFtZXdvcmsuY29tIiwiY29udGV4dCI6e319
+00:42:28.850 undefined
+00:42:40.181 [OMNIBUS] Blocked access to XMLHttpRequest 3 debugger eval code:10:41
+00:43:07.065 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    vn https://bat.bing.com/p/conversions/s/0.8.66:1
+    gn https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    r https://bat.bing.com/p/conversions/s/0.8.66:1
+    promise callback*s https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    gn https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    Pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    yn https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    yn https://bat.bing.com/p/conversions/s/0.8.66:1
+    _n https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    ua https://bat.bing.com/p/conversions/s/0.8.66:1
+    ua https://bat.bing.com/p/conversions/s/0.8.66:1
+    ra https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    $n https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+0.8.66:1:22148
+00:43:17.727 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:43:17.728 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ja https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ya https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ra https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    co https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yi https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    jr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    jr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    start https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:43:20.202 [OMNIBUS] Blocked access to XMLHttpRequest 2 debugger eval code:10:41
+00:43:28.116 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ja https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ya https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ra https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    co https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yi https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    jr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    jr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    start https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:43:40.213 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:43:42.488 await fetch("https://a.clarity.ms/collect", {
+    "credentials": "omit",
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "Accept": "*/*",…
+00:43:42.568 [OMNIBUS] Blocked access to fetch debugger eval code:10:41
+00:43:42.568 undefined
+00:43:53.070 allow fetch
+00:43:53.129 Uncaught SyntaxError: unexpected token: identifier debugger eval code:1:7
+00:43:57.597 [OMNIBUS] Blocked access to fetch 2 debugger eval code:10:41
+00:44:00.224 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:44:00.602 [OMNIBUS] Blocked access to fetch debugger eval code:10:41
+00:44:03.069 POST
+https://bat.bing.com/p/conversions/c/p
+[HTTP/1.1 204 No Content 228ms]
+
+00:44:06.442 lintrk
+00:44:06.500
+function Mn(f, d)
+
+00:44:10.171 localStorage
+00:44:10.237
+Storage { _uetsid_exp: "Thu, 25 Jun 2026 06:09:43 GMT", "x-msoc-websdk": "prod", "com.adobe.reactor.dataElements.LastVisitedURL": '"https://azure.microsoft.com/en-us"', _uetvid_exp: "Mon, 19 Jul 2027 06:09:43 GMT", _uetsid: "50b63ab06f8d11f1a8dcabf1ac4f983d|1510ab8|2|g76|0|2366", li_adsId: "24516d02-12a3-4d15-92f4-ae34e4dbc81f", lastExternalReferrer: "empty", FeatureEvaluatorV2Results: '{"features":[{"featureName":"assistant.migration.azure","isEnabled":true,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"assistant.migration.azure.testpage","isEnabled":false,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"assistant.migration.msft.ai","isEnabled":true,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"assistant.migration.msft.business","isEnabled":true,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"assistant.migration.msft.copilot","isEnabled":true,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"assistant.migration.msft.customers","isEnabled":true,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"assistant.migration.msft.education","isEnabled":false,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"assistant.migration.msft.fabric","isEnabled":true,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"assistant.migration.msft.isv","isEnabled":true,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"assistant.migration.msft.m365","isEnabled":true,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"assistant.migration.msft.powerplatform","isEnabled":true,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"assistant.migration.msft.sdc","isEnabled":true,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"assistant.migration.msft.security","isEnabled":true,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"assistant.migration.msft.teams","isEnabled":true,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"assistant.migration.msft.windows365","isEnabled":false,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"enableEmailCapture","isEnabled":false,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"test.fiftyfifty","isEnabled":false,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"test.proof_of_life","isEnabled":true,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"waa.exp.uca.persistentpromptbanner","isEnabled":false,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"waa.exp.uca.proactivechat","isEnabled":true,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"waa.exp.uca.starterprompts","isEnabled":false,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"waa.exp.uca.streaming","isEnabled":true,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"waa.exp.uca.waapro","isEnabled":false,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"waa.next_gen_retrieval","isEnabled":false,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"waa.quote_x_agent","isEnabled":false,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"waa.rollout.uca.agenticinsights","isEnabled":false,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"waa.uca.eng.floatingbanner","isEnabled":true,"variantName":null,"variantConfiguration":null,"variantValue":null},{"featureName":"waa.uca.eng.waapro","isEnabled":true,"variantName":null,"variantConfiguration":null,"variantValue":null}],"responseTimeMs":0,"context":{"locale":"en-us","sessionId":"068BEDD3342766E82EEEFAB8350367C7","partnerId":"3237876c-9234-447f-987c-559ac6194158","url":"https://azure.microsoft.com/en-us"},"clientMetadata":{"durationMs":846,"featureTotalCount":28,"featureEnabledCount":17,"fallback":{"type":"NONE","cachedAt":null,"error":null},"traceId":"d77a0c6746e219c5ce4647450c02c18c","commitId":"852d85c6f1efecc1600638be44c6c84e462d86a9"},"cachedAt":"2026-06-24T06:09:42.186Z"}', lastExternalReferrerTime: "1782281384823", _uetvid: "b6ad6ea05a2e11f1b936193e7b024147" }
+
+00:44:15.617 [OMNIBUS] Blocked access to XMLHttpRequest 3 debugger eval code:10:41
+00:44:29.117 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ja https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ya https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ra https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    co https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yi https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    jr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    jr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    start https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:44:33.421 sessionStorage
+00:44:33.488
+Storage { tt_pixel_session_index: '{"index":5,"main":5}', tt_sessionId: '"5232129f-6f8d-11f1-9ce5-0200172442ca::9Jo5_OQFcZIq6oc8zdCG"', lastPageURL: "https://azure.microsoft.com/en-us", journeySignalsEntryData: "{}", AI_sentBuffer_1: '[{"item":"{\\"time\\":\\"2026-06-24T07:44:00.615Z\\",\\"iKey\\":\\"2cee91dc-782a-400b-bdd2-10285db5ec55\\",\\"name\\":\\"Microsoft.ApplicationInsights.2cee91dc782a400bbdd210285db5ec55.Exception\\",\\"tags\\":{\\"ai.user.id\\":\\"iV1xWHTcsfDxATOqR362KT\\",\\"ai.session.id\\":\\"Y7kPZIePbNPv3k+UDx2zfU\\",\\"ai.device.id\\":\\"browser\\",\\"ai.device.type\\":\\"Browser\\",\\"ai.operation.name\\":\\"/en-us\\",\\"ai.operation.id\\":\\"2ab97609e6ff47f1bb8a0af522976db9\\",\\"ai.internal.sdkVersion\\":\\"javascript:3.3.9\\",\\"ai.cloud.role\\":\\"UnifiedChatAssistant\\",\\"ai.cloud.roleInstance\\":\\"production\\"},\\"data\\":{\\"baseType\\":\\"ExceptionData\\",\\"baseData\\":{\\"ver\\":2,\\"exceptions\\":[{\\"typeName\\":\\"Error\\",\\"message\\":\\"[RefreshDirectLineToken] No response received from refresh endpoint\\",\\"hasFullStack\\":true,\\"stack\\":\\"WPe</</</n<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2197276\\\\nasync*Gge@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1799233\\\\nWPe</</</n<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196705\\\\nWPe</</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2199831\\\\nsetTimeout handler*WPe</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196484\\\\nWPe<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196454\\\\nasync*e/fk</</m<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:653988\\\\ne/fk</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:654429\\\\nKx/</</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:650241\\\\ndispatch@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1869444\\\\nUPe<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2195841\\\\nasync*e/fk</</m<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:653988\\\\ne/fk</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:654429\\\\nKx/</</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:650241\\\\nrNe/d/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2206093\\\\nGge@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1799233\\\\nd@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2206068\\\\nrNe/u/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2204708\\\\nasync*Gge@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1799233\\\\nu@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2204072\\\\nrNe/</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2207332\\\\nrNe/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2208052\\\\nol@https://www.microsoft.com/webassistant/v1/uca.mjs:7:105854\\\\nSc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:125808\\\\nP/kc/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:124583\\\\nkc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:124643\\\\ncc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:118461\\\\nUo@https://www.microsoft.com/webassistant/v1/uca.mjs:7:59453\\\\nP/oc/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:115882\\\\nVoidFunction*oc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:115859\\\\nnc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:115323\\\\nPa@https://www.microsoft.com/webassistant/v1/uca.mjs:7:75911\\\\n\\",\\"parsedStack\\":[{\\"level\\":0,\\"method\\":\\"WPe</</</n<\\",\\"assembly\\":\\"WPe</</</n<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2197276\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":1,\\"method\\":\\"async*Gge\\",\\"assembly\\":\\"async*Gge@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1799233\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":2,\\"method\\":\\"WPe</</</n<\\",\\"assembly\\":\\"WPe</</</n<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196705\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":3,\\"method\\":\\"WPe</</<\\",\\"assembly\\":\\"WPe</</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2199831\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":4,\\"method\\":\\"setTimeout\\",\\"assembly\\":\\"setTimeout handler*WPe</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196484\\",\\"fileName\\":\\"handler*WPe</<@https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":5,\\"method\\":\\"WPe<\\",\\"assembly\\":\\"WPe<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196454\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":6,\\"method\\":\\"async*e/fk</</m<\\",\\"assembly\\":\\"async*e/fk</</m<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:653988\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":7,\\"method\\":\\"e/fk</<\\",\\"assembly\\":\\"e/fk</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:654429\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":8,\\"method\\":\\"Kx/</</<\\",\\"assembly\\":\\"Kx/</</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:650241\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":9,\\"method\\":\\"dispatch\\",\\"assembly\\":\\"dispatch@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1869444\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":10,\\"method\\":\\"UPe<\\",\\"assembly\\":\\"UPe<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2195841\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":11,\\"method\\":\\"async*e/fk</</m<\\",\\"assembly\\":\\"async*e/fk</</m<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:653988\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":12,\\"method\\":\\"e/fk</<\\",\\"assembly\\":\\"e/fk</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:654429\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":13,\\"method\\":\\"Kx/</</<\\",\\"assembly\\":\\"Kx/</</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:650241\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":14,\\"method\\":\\"rNe/d/<\\",\\"assembly\\":\\"rNe/d/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2206093\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":15,\\"method\\":\\"Gge\\",\\"assembly\\":\\"Gge@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1799233\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":16,\\"method\\":\\"d\\",\\"assembly\\":\\"d@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2206068\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":17,\\"method\\":\\"rNe/u/<\\",\\"assembly\\":\\"rNe/u/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2204708\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":18,\\"method\\":\\"async*Gge\\",\\"assembly\\":\\"async*Gge@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1799233\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":19,\\"method\\":\\"u\\",\\"assembly\\":\\"u@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2204072\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":20,\\"method\\":\\"rNe/</<\\",\\"assembly\\":\\"rNe/</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2207332\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":21,\\"method\\":\\"rNe/<\\",\\"assembly\\":\\"rNe/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2208052\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":22,\\"method\\":\\"ol\\",\\"assembly\\":\\"ol@https://www.microsoft.com/webassistant/v1/uca.mjs:7:105854\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":23,\\"method\\":\\"Sc\\",\\"assembly\\":\\"Sc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:125808\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":24,\\"method\\":\\"P/kc/<\\",\\"assembly\\":\\"P/kc/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:124583\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":25,\\"method\\":\\"kc\\",\\"assembly\\":\\"kc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:124643\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":26,\\"method\\":\\"cc\\",\\"assembly\\":\\"cc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:118461\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":27,\\"method\\":\\"Uo\\",\\"assembly\\":\\"Uo@https://www.microsoft.com/webassistant/v1/uca.mjs:7:59453\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":28,\\"method\\":\\"P/oc/<\\",\\"assembly\\":\\"P/oc/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:115882\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":29,\\"method\\":\\"VoidFunction*oc\\",\\"assembly\\":\\"VoidFunction*oc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:115859\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":30,\\"method\\":\\"nc\\",\\"assembly\\":\\"nc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:115323\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":31,\\"method\\":\\"Pa\\",\\"assembly\\":\\"Pa@https://www.microsoft.com/webassistant/v1/uca.mjs:7:75911\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7}]}],\\"properties\\":{\\"component\\":\\"RefreshDirectLineToken\\",\\"errorMessage\\":\\"No response received from refresh endpoint\\",\\"errorName\\":\\"Error\\",\\"errorType\\":\\"Error\\",\\"timestamp\\":\\"2026-06-24T07:44:00.605Z\\",\\"userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0\\",\\"url\\":\\"https://azure.microsoft.com/en-us\\",\\"originalStack\\":\\"WPe</</</n<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2197276\\\\nasync*Gge@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1799233\\\\nWPe</</</n<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196705\\\\nWPe</</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2199831\\\\nsetTimeout handler*WPe</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196484\\\\nWPe<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196454\\\\nasync*e/fk</</m<@https://www.microsoft.com/webassistant/v1/uca.mjs...[TRUNCATED]\\",\\"context_operation\\":\\"refreshDirectLineToken\\",\\"context_currentTuid\\":\\"d06acadd-[REDACTED]\\",\\"context_statusCode\\":\\"500\\",\\"context_duration\\":\\"3006\\",\\"context_responseText\\":\\"\\",\\"context_errorType\\":\\"Error\\",\\"context_errorMessage\\":\\"No response received from refresh endpoint\\",\\"context_attemptsUsed\\":\\"3\\",\\"context_isTimeoutError\\":\\"false\\",\\"context_isNetworkError\\":\\"false\\",\\"context_userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0\\",\\"context_connectionType\\":\\"unknown\\",\\"context_networkDiagnosis\\":\\"{\\\\\\"errorType\\\\\\":\\\\\\"Error\\\\\\",\\\\\\"errorMessage\\\\\\":\\\\\\"No response received from refresh endpoint\\\\\\",\\\\\\"url\\\\\\":\\\\\\"https://directline.botframework.com/v3/directline/tokens/refresh\\\\\\",\\\\\\"timestamp\\\\\\":\\\\\\"2026-06-24T07:44:00.603Z\\\\\\",\\\\\\"online\\\\\\":true,\\\\\\"connection\\\\\\":null,\\\\\\"userAgent\\\\\\":\\\\\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0\\\\\\",\\\\\\"language\\\\\\":\\\\\\"en-US\\\\\\",\\\\\\"performanceTiming\\\\\\":{\\\\\\"domComplete\\\\\\":1782281385333,\\\\\\"loadEventEnd\\\\\\":1782281385352,\\\\\\"navigationStart\\\\\\":1782281377223},\\\\\\"likelyCause\\\\\\":\\\\\\"unknown_network_error\\\\\\",\\\\\\"suggestions...[TRUNCATED]\\",\\"context_security\\":\\"{\\\\\\"sanitized\\\\\\":true,\\\\\\"sanitizationTimestamp\\\\\\":\\\\\\"2026-06-24T07:44:00.605Z\\\\\\"}\\",\\"typeName\\":\\"Error\\",\\"baseData\\":\\"{\\\\\\"properties\\\\\\":{\\\\\\"component\\\\\\":\\\\\\"UnifiedChatAssistant\\\\\\",\\\\\\"selectedAgent\\\\\\":\\\\\\"Modern\\\\\\",\\\\\\"hostname\\\\\\":\\\\\\"azure.microsoft.com\\\\\\",\\\\\\"environment\\\\\\":\\\\\\"production\\\\\\",\\\\\\"partnerId\\\\\\":\\\\\\"3237876c-9234-447f-987c-559ac6194158\\\\\\",\\\\\\"conversationId\\\\\\":\\\\\\"JSTnIFounOR8xrjIthctzs-us\\\\\\",\\\\\\"build_mode\\\\\\":\\\\\\"production\\\\\\",\\\\\\"build_time\\\\\\":\\\\\\"2026-06-17T18:06:39.535Z\\\\\\",\\\\\\"build_version\\\\\\":\\\\\\"1.0.0-alpha.1\\\\\\",\\\\\\"build_commit_hash\\\\\\":\\\\\\"1ba6a102d0a7e1c081e89c96d69f9fe9e7397436\\\\\\",\\\\\\"siteUrl\\\\\\":\\\\\\"https://azure.microsoft.com/en-us\\\\\\",\\\\\\"referrer\\\\\\":\\\\\\"direct\\\\\\",\\\\\\"userAgent\\\\\\":\\\\\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0\\\\\\",\\\\\\"consentStatus\\\\\\":\\\\\\"NOT_REQUIRED\\\\\\",\\\\\\"rawConsent\\\\\\":\\\\\\"NR\\\\\\",\\\\\\"consentSource\\\\\\":\\\\\\"WcpConsent\\\\\\"}}\\"}}}}","cnt":0},{"item":"{\\"time\\":\\"2026-06-24T07:44:00.621Z\\",\\"iKey\\":\\"2cee91dc-782a-400b-bdd2-10285db5ec55\\",\\"name\\":\\"Microsoft.ApplicationInsights.2cee91dc782a400bbdd210285db5ec55.Exception\\",\\"tags\\":{\\"ai.user.id\\":\\"iV1xWHTcsfDxATOqR362KT\\",\\"ai.session.id\\":\\"Y7kPZIePbNPv3k+UDx2zfU\\",\\"ai.device.id\\":\\"browser\\",\\"ai.device.type\\":\\"Browser\\",\\"ai.operation.name\\":\\"/en-us\\",\\"ai.operation.id\\":\\"2ab97609e6ff47f1bb8a0af522976db9\\",\\"ai.internal.sdkVersion\\":\\"javascript:3.3.9\\",\\"ai.cloud.role\\":\\"UnifiedChatAssistant\\",\\"ai.cloud.roleInstance\\":\\"production\\"},\\"data\\":{\\"baseType\\":\\"ExceptionData\\",\\"baseData\\":{\\"ver\\":2,\\"exceptions\\":[{\\"typeName\\":\\"EnhancedError\\",\\"message\\":\\"EnhancedError: [BotframeworkTokenApi] Operation failed: refreshDirectLineToken\\",\\"hasFullStack\\":true,\\"stack\\":\\"WPe</</</n<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2197276\\\\nasync*Gge@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1799233\\\\nWPe</</</n<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196705\\\\nWPe</</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2199831\\\\nsetTimeout handler*WPe</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196484\\\\nWPe<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196454\\\\nasync*e/fk</</m<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:653988\\\\ne/fk</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:654429\\\\nKx/</</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:650241\\\\ndispatch@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1869444\\\\nUPe<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2195841\\\\nasync*e/fk</</m<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:653988\\\\ne/fk</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:654429\\\\nKx/</</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:650241\\\\nrNe/d/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2206093\\\\nGge@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1799233\\\\nd@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2206068\\\\nrNe/u/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2204708\\\\nasync*Gge@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1799233\\\\nu@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2204072\\\\nrNe/</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2207332\\\\nrNe/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2208052\\\\nol@https://www.microsoft.com/webassistant/v1/uca.mjs:7:105854\\\\nSc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:125808\\\\nP/kc/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:124583\\\\nkc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:124643\\\\ncc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:118461\\\\nUo@https://www.microsoft.com/webassistant/v1/uca.mjs:7:59453\\\\nP/oc/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:115882\\\\nVoidFunction*oc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:115859\\\\nnc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:115323\\\\nPa@https://www.microsoft.com/webassistant/v1/uca.mjs:7:75911\\\\n\\",\\"parsedStack\\":[{\\"level\\":0,\\"method\\":\\"WPe</</</n<\\",\\"assembly\\":\\"WPe</</</n<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2197276\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":1,\\"method\\":\\"async*Gge\\",\\"assembly\\":\\"async*Gge@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1799233\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":2,\\"method\\":\\"WPe</</</n<\\",\\"assembly\\":\\"WPe</</</n<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196705\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":3,\\"method\\":\\"WPe</</<\\",\\"assembly\\":\\"WPe</</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2199831\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":4,\\"method\\":\\"setTimeout\\",\\"assembly\\":\\"setTimeout handler*WPe</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196484\\",\\"fileName\\":\\"handler*WPe</<@https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":5,\\"method\\":\\"WPe<\\",\\"assembly\\":\\"WPe<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196454\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":6,\\"method\\":\\"async*e/fk</</m<\\",\\"assembly\\":\\"async*e/fk</</m<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:653988\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":7,\\"method\\":\\"e/fk</<\\",\\"assembly\\":\\"e/fk</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:654429\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":8,\\"method\\":\\"Kx/</</<\\",\\"assembly\\":\\"Kx/</</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:650241\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":9,\\"method\\":\\"dispatch\\",\\"assembly\\":\\"dispatch@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1869444\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":10,\\"method\\":\\"UPe<\\",\\"assembly\\":\\"UPe<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2195841\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":11,\\"method\\":\\"async*e/fk</</m<\\",\\"assembly\\":\\"async*e/fk</</m<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:653988\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":12,\\"method\\":\\"e/fk</<\\",\\"assembly\\":\\"e/fk</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:654429\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":13,\\"method\\":\\"Kx/</</<\\",\\"assembly\\":\\"Kx/</</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:650241\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":14,\\"method\\":\\"rNe/d/<\\",\\"assembly\\":\\"rNe/d/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2206093\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":15,\\"method\\":\\"Gge\\",\\"assembly\\":\\"Gge@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1799233\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":16,\\"method\\":\\"d\\",\\"assembly\\":\\"d@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2206068\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":17,\\"method\\":\\"rNe/u/<\\",\\"assembly\\":\\"rNe/u/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2204708\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":18,\\"method\\":\\"async*Gge\\",\\"assembly\\":\\"async*Gge@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1799233\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":19,\\"method\\":\\"u\\",\\"assembly\\":\\"u@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2204072\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":20,\\"method\\":\\"rNe/</<\\",\\"assembly\\":\\"rNe/</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2207332\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":21,\\"method\\":\\"rNe/<\\",\\"assembly\\":\\"rNe/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2208052\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":22,\\"method\\":\\"ol\\",\\"assembly\\":\\"ol@https://www.microsoft.com/webassistant/v1/uca.mjs:7:105854\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":23,\\"method\\":\\"Sc\\",\\"assembly\\":\\"Sc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:125808\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":24,\\"method\\":\\"P/kc/<\\",\\"assembly\\":\\"P/kc/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:124583\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":25,\\"method\\":\\"kc\\",\\"assembly\\":\\"kc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:124643\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":26,\\"method\\":\\"cc\\",\\"assembly\\":\\"cc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:118461\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":27,\\"method\\":\\"Uo\\",\\"assembly\\":\\"Uo@https://www.microsoft.com/webassistant/v1/uca.mjs:7:59453\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":28,\\"method\\":\\"P/oc/<\\",\\"assembly\\":\\"P/oc/<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:115882\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":29,\\"method\\":\\"VoidFunction*oc\\",\\"assembly\\":\\"VoidFunction*oc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:115859\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":30,\\"method\\":\\"nc\\",\\"assembly\\":\\"nc@https://www.microsoft.com/webassistant/v1/uca.mjs:7:115323\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7},{\\"level\\":31,\\"method\\":\\"Pa\\",\\"assembly\\":\\"Pa@https://www.microsoft.com/webassistant/v1/uca.mjs:7:75911\\",\\"fileName\\":\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\",\\"line\\":7}]}],\\"properties\\":{\\"component\\":\\"BotframeworkTokenApi\\",\\"errorMessage\\":\\"Operation failed: refreshDirectLineToken\\",\\"errorName\\":\\"EnhancedError\\",\\"errorType\\":\\"$ge\\",\\"timestamp\\":\\"2026-06-24T07:44:00.618Z\\",\\"userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0\\",\\"url\\":\\"https://azure.microsoft.com/en-us\\",\\"originalStack\\":\\"WPe</</</n<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2197276\\\\nasync*Gge@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1799233\\\\nWPe</</</n<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196705\\\\nWPe</</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2199831\\\\nsetTimeout handler*WPe</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196484\\\\nWPe<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196454\\\\nasync*e/fk</</m<@https://www.microsoft.com/webassistant/v1/uca.mjs...[TRUNCATED]\\",\\"context_message\\":\\"Operation failed: refreshDirectLineToken\\",\\"context_name\\":\\"EnhancedError\\",\\"context_stack\\":\\"WPe</</</n<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2197276\\\\nasync*Gge@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1799233\\\\nWPe</</</n<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196705\\\\nWPe</</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2199831\\\\nsetTimeout handler*WPe</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196484\\\\nWPe<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196454\\\\nasync*e/fk</</m<@https://www.microsoft.com/webassistant/v1/uca.mjs...[TRUNCATED]\\",\\"context_parsedStack\\":\\"[{\\\\\\"fileName\\\\\\":\\\\\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\\\\\",\\\\\\"functionName\\\\\\":\\\\\\"WPe</</</n<\\\\\\",\\\\\\"lineNumber\\\\\\":7,\\\\\\"columnNumber\\\\\\":2197276,\\\\\\"source\\\\\\":\\\\\\"WPe</</</n<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2197276\\\\\\"},{\\\\\\"fileName\\\\\\":\\\\\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\\\\\",\\\\\\"functionName\\\\\\":\\\\\\"async*Gge\\\\\\",\\\\\\"lineNumber\\\\\\":7,\\\\\\"columnNumber\\\\\\":1799233,\\\\\\"source\\\\\\":\\\\\\"async*Gge@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1799233\\\\\\"},{\\\\\\"fileName\\\\\\":\\\\\\"https://www.microsoft.com/webassistant/v1/uca.mjs\\\\\\",\\\\\\"function...[TRUNCATED]\\",\\"context_context\\":\\"{\\\\\\"operation\\\\\\":\\\\\\"refreshDirectLineToken\\\\\\",\\\\\\"component\\\\\\":\\\\\\"BotframeworkTokenApi\\\\\\",\\\\\\"metadata\\\\\\":{\\\\\\"currentTuid\\\\\\":\\\\\\"d06acadd-[REDACTED]\\\\\\"},\\\\\\"duration\\\\\\":3020,\\\\\\"operationStartTime\\\\\\":\\\\\\"2026-06-24T07:43:57.597Z\\\\\\"}\\",\\"context_capturedAt\\":\\"2026-06-24T07:44:00.617Z\\",\\"context_buildInfo\\":\\"{\\\\\\"mode\\\\\\":\\\\\\"production\\\\\\",\\\\\\"buildTime\\\\\\":\\\\\\"2026-06-17T18:06:39.535Z\\\\\\",\\\\\\"version\\\\\\":\\\\\\"1.0.0-alpha.1\\\\\\",\\\\\\"commitHash\\\\\\":\\\\\\"[APIKEY_REDACTED]\\\\\\"}\\",\\"context_executionContext\\":\\"{\\\\\\"timestamp\\\\\\":\\\\\\"2026-06-24T07:44:00.617Z\\\\\\",\\\\\\"url\\\\\\":\\\\\\"https://azure.microsoft.com/en-us\\\\\\",\\\\\\"userAgent\\\\\\":\\\\\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0\\\\\\",\\\\\\"viewport\\\\\\":{\\\\\\"width\\\\\\":1366,\\\\\\"height\\\\\\":635},\\\\\\"performance\\\\\\":{},\\\\\\"chatElementPresent\\\\\\":true,\\\\\\"chatElementClasses\\\\\\":\\\\\\"\\\\\\"}\\",\\"context_originalError\\":\\"{\\\\\\"message\\\\\\":\\\\\\"No response received from refresh endpoint\\\\\\",\\\\\\"name\\\\\\":\\\\\\"Error\\\\\\",\\\\\\"stack\\\\\\":\\\\\\"WPe</</</n<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2197276\\\\\\\\nasync*Gge@https://www.microsoft.com/webassistant/v1/uca.mjs:7:1799233\\\\\\\\nWPe</</</n<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196705\\\\\\\\nWPe</</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2199831\\\\\\\\nsetTimeout handler*WPe</<@https://www.microsoft.com/webassistant/v1/uca.mjs:7:2196484\\\\\\\\nWPe<@https://www.microsoft.com/webassistant/v1...[TRUNCATED]\\",\\"typeName\\":\\"EnhancedError\\",\\"baseData\\":\\"{\\\\\\"properties\\\\\\":{\\\\\\"component\\\\\\":\\\\\\"UnifiedChatAssistant\\\\\\",\\\\\\"selectedAgent\\\\\\":\\\\\\"Modern\\\\\\",\\\\\\"hostname\\\\\\":\\\\\\"azure.microsoft.com\\\\\\",\\\\\\"environment\\\\\\":\\\\\\"production\\\\\\",\\\\\\"partnerId\\\\\\":\\\\\\"3237876c-9234-447f-987c-559ac6194158\\\\\\",\\\\\\"conversationId\\\\\\":\\\\\\"JSTnIFounOR8xrjIthctzs-us\\\\\\",\\\\\\"build_mode\\\\\\":\\\\\\"production\\\\\\",\\\\\\"build_time\\\\\\":\\\\\\"2026-06-17T18:06:39.535Z\\\\\\",\\\\\\"build_version\\\\\\":\\\\\\"1.0.0-alpha.1\\\\\\",\\\\\\"build_commit_hash\\\\\\":\\\\\\"1ba6a102d0a7e1c081e89c96d69f9fe9e7397436\\\\\\",\\\\\\"siteUrl\\\\\\":\\\\\\"https://azure.microsoft.com/en-us\\\\\\",\\\\\\"referrer\\\\\\":\\\\\\"direct\\\\\\",\\\\\\"userAgent\\\\\\":\\\\\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0\\\\\\",\\\\\\"consentStatus\\\\\\":\\\\\\"NOT_REQUIRED\\\\\\",\\\\\\"rawConsent\\\\\\":\\\\\\"NR\\\\\\",\\\\\\"consentSource\\\\\\":\\\\\\"WcpConsent\\\\\\"}}\\"}}}}","cnt":0}]', tt_appInfo: '{"platform":"pc"}', "com.adobe.reactor.dataElements.MC1 GUID": '"ef4ddc634bd649ab9ce3c5b591501b13"', AI_buffer_1: "[]", _cltk: "ocwix3", length: 9 }
+
+00:44:40.245 [OMNIBUS] Blocked access to XMLHttpRequest 3 debugger eval code:10:41
+00:45:29.935 window.alert(sessionStorage)
+00:45:33.949 undefined
+00:45:33.950 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:45:33.950 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Qn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    hr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ja https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ya https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ra https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    co https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    ji https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yi https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ti https://scripts.clarity.ms/0.8.66/clarity.js:2
+    jr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    jr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Ir https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    xr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    Yr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    start https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+    No https://scripts.clarity.ms/0.8.66/clarity.js:2
+clarity.js:2:49174
+00:45:34.155 GET
+https://scripts.clarity.ms/0.8.66/clarity.context.js
+[HTTP/2 200  181ms]
+
+00:45:34.250 [OMNIBUS] Blocked access to XMLHttpRequest debugger eval code:10:41
+00:45:34.250 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    vn https://bat.bing.com/p/conversions/s/0.8.66:1
+    gn https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    r https://bat.bing.com/p/conversions/s/0.8.66:1
+    promise callback*s https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    gn https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    pn https://bat.bing.com/p/conversions/s/0.8.66:1
+    yn https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    u https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    pe https://bat.bing.com/p/conversions/s/0.8.66:1
+    yn https://bat.bing.com/p/conversions/s/0.8.66:1
+    _n https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    ua https://bat.bing.com/p/conversions/s/0.8.66:1
+    ua https://bat.bing.com/p/conversions/s/0.8.66:1
+    ra https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    $n https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+    he https://bat.bing.com/p/conversions/s/0.8.66:1
+    Qn https://bat.bing.com/p/conversions/s/0.8.66:1
+    setTimeout handler*de https://bat.bing.com/p/conversions/s/0.8.66:1
+0.8.66:1:22148
+00:45:34.353 WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER. clarity.context.js:1:1891
+00:45:40.278 [OMNIBUS] Blocked access to XMLHttpRequest 2 debugger eval code:10:41
+00:45:45.343 Uncaught (in promise) TypeError: (new XMLHttpRequest()).open is not a function
+    Sr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    u https://scripts.clarity.ms/0.8.66/clarity.js:2
+    o https://scripts.clarity.ms/0.8.66/clarity.js:2
+    promise callback*c https://scripts.clarity.ms/0.8.66/clarity.js:2
+    n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    $n https://scripts.clarity.ms/0.8.66/clarity.js:2
+    kr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    setTimeout handler*Gn https://scripts.clarity.ms/0.8.66/clarity.js:2
+    wr https://scripts.clarity.ms/0.8.66/clarity.js:2
+    On https://scripts.clarity.ms/0.8.66/clarity.js:2
+    I https://scripts.clarity.ms/0.8.66/clarity.context.js:1
+    N https://scripts.clarity.ms/0.8.66/clarity.context.js:1
+    f https://scripts.clarity.ms/0.8.66/clarity.context.js:1
+    uo https://scripts.clarity.ms/0.8.66/clarity.js:2
+    <anonymous> https://scripts.clarity.ms/0.8.66/clarity.context.js:1
+    <anonymous> https://scripts.clarity.ms/0.8.66/clarity.context.js:1
+    <anonymous> https://scripts.clarity.ms/0.8.66/clarity.context.js:1
+clarity.js:2:49174
