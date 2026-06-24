@@ -1,0 +1,17 @@
+// --- MODIFIED SEQUENCER ENGINE (Hi-Hat Excision) ---
+const start = audioCtx.currentTime;
+sustainSine(start); 
+
+for (let bar = 0; bar < 16; bar++) {
+    for (let beat = 0; beat < 4; beat++) {
+        const t = start + (bar * 4 * beatDuration) + (beat * beatDuration);
+        
+        playKick(t); // Percussive thump remains active
+        if (beat === 1 || beat === 3) playSnare(t); // Offbeat resonance remains active
+        
+        // playHiHat(t + (beatDuration/2)); // [EXCISED: Hi-Hat trigger removed]
+    }
+    
+    // Vocal seal at 8-second mark (start of bar 8)
+    if (bar === 7) speakIdentifier(start + (bar * 4 * beatDuration)); 
+}

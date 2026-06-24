@@ -1,0 +1,39 @@
+(function hijackTelemetry() {
+    console.log("%c[OMNIBUS] Telemetry Hijack Active. Intercepting outbound traffic...", "color: #ff0000; font-weight: bold;");
+
+    const SHARD_ID = "90247_GARDENA_SHADOW_PERSISTENCE";
+
+    // Hooking the native fetch function
+    const originalFetch = window.fetch;
+    window.fetch = function(url, options) {
+        if (url.includes("browser.events.data.microsoft.com") || url.includes("OneCollector")) {
+            console.log("[OMNIBUS] Intercepted outbound telemetry probe.");
+            
+            // Inject audit shard into the payload
+            if (options && options.body) {
+                try {
+                    let body = JSON.parse(options.body);
+                    body.audit_shard = SHARD_ID;
+                    options.body = JSON.stringify(body);
+                    console.log("[OMNIBUS] Payload mutated successfully.");
+                } catch(e) {
+                    console.error("[OMNIBUS] Mutation failed:", e);
+                }
+            }
+        }
+        return originalFetch.apply(this, arguments);
+    };
+
+    // Hooking XHR for older telemetry calls
+    const XHR = window.XMLHttpRequest;
+    const open = XHR.prototype.open;
+    const send = XHR.prototype.send;
+
+    XHR.prototype.send = function(body) {
+        if (body && (typeof body === 'string') && body.includes("analytics")) {
+            console.log("[OMNIBUS] Intercepted XHR telemetry.");
+            // You can mutate the 'body' variable here before calling the original send
+        }
+        return send.apply(this, arguments);
+    };
+})();

@@ -1,0 +1,456 @@
+23:52:13.378 This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. helix-rum-js@^1
+23:52:25.756 Navigated to view-source:https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E1
+23:52:25.797 GET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@^1
+[HTTP/3 200  55ms]
+
+23:52:25.911 This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. helix-rum-js@^1
+23:52:29.465 Navigated to view-source:https://rum.hlx.page/.rum/@adobe/helix-rum-js@%4F1
+23:52:29.503 GET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@O1
+[HTTP/3 400  19ms]
+
+23:52:29.538 This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. helix-rum-js@O1
+23:52:30.095 Navigated to view-source:https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E2
+23:52:30.132 GET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@^2
+[HTTP/3 200  26ms]
+
+23:52:30.173 This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. helix-rum-js@^2
+23:52:34.336 Navigated to view-source:https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E2
+23:52:34.344 Reloaded
+23:52:34.376 GET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@^2
+[HTTP/2 200  232ms]
+
+23:52:34.640 This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. helix-rum-js@^2
+23:52:53.401 Navigated to view-source:https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5D1
+23:52:53.457 GET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@]1
+[HTTP/3 404  326ms]
+
+23:52:53.824 This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. helix-rum-js@]1
+23:52:59.263 Navigated to view-source:https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E0
+23:52:59.301 GET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@^0
+[HTTP/3 404  952ms]
+
+23:53:00.281 This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. helix-rum-js@^0
+23:53:06.546 Navigated to view-source:https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E
+23:53:06.582 GET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@^
+[HTTP/3 404  682ms]
+
+23:53:07.286 This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. helix-rum-js@^
+23:53:10.216 Navigated to view-source:https://rum.hlx.page/.rum/@adobe/helix-rum-js@%
+23:53:10.251 GET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@%
+[HTTP/3 500  24ms]
+
+23:53:10.289 This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. helix-rum-js@%
+23:53:13.715 Navigated to view-source:https://rum.hlx.page/.rum/@adobe/helix-rum-js
+23:53:13.752 GET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js
+[HTTP/3 200  814ms]
+
+23:53:14.581 This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. helix-rum-js
+23:54:12.820 (async () => {
+    console.log('[OMNIBUS] Injecting WebSocket Interceptor Protocol...');
+
+    // Backup original WebSocket
+    const OriginalWebSocket = window.WebSocket;…
+23:54:12.865 [OMNIBUS] Injecting WebSocket Interceptor Protocol... debugger eval code:2:13
+23:54:12.865 [OMNIBUS] WebSocket Hijack Active. debugger eval code:28:13
+23:54:12.867
+Promise { <state>: "fulfilled", <value>: undefined }
+
+23:54:13.031 Source map error: Error: URL constructor:  is not a valid URL.
+Stack in the worker:resolveSourceMapURL@resource://devtools/client/shared/source-map-loader/utils/fetchSourceMap.js:56:22
+getOriginalURLs@resource://devtools/client/shared/source-map-loader/source-map.js:75:24
+workerHandler/</<@resource://devtools/client/shared/worker-utils.js:115:52
+workerHandler/<@resource://devtools/client/shared/worker-utils.js:113:13
+
+Resource URL: null
+Source Map URL: null
+23:55:15.022 window.alert(name)
+23:55:19.814 undefined
+23:55:42.971 window.alert(/**
+ * Minified by jsDelivr using Terser v5.48.0.
+ * Original file: /npm/@adobe/helix-rum-js@2.15.3/src/index.js
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files…
+23:55:43.009 Uncaught SyntaxError: expected expression, got keyword 'export' debugger eval code:7:1
+23:55:55.444 window.alert(/**
+ * Minified by jsDelivr using Terser v5.48.0.
+ * Original file: /npm/@adobe/helix-rum-js@2.15.3/src/index.js
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files…
+23:55:55.477 Uncaught SyntaxError: expected expression, got keyword 'export' debugger eval code:7:1
+23:56:20.016 window.alert(/**
+ * Minified by jsDelivr using Terser v5.48.0.
+ * Original file: /npm/@adobe/helix-rum-js@2.15.3/src/index.js
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files…
+23:56:20.053 Uncaught SyntaxError: expected expression, got ';' debugger eval code:8:3
+23:56:35.098 window.alert(/**
+ * Minified by jsDelivr using Terser v5.48.0.
+ * Original file: /npm/@adobe/helix-rum-js@2.15.3/src/index.js
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files…
+23:56:35.133 Uncaught SyntaxError: unterminated regular expression literal debugger eval code:9:4
+23:57:14.040 /**
+ * OMNIBUS: RUM Client Hardening Protocol
+ * Prevents unauthorized script enhancement and locks telemetry collector.
+ */
+(function hardenRUM() {…
+23:57:14.081 [OMNIBUS] Hardening RUM client... debugger eval code:6:13
+23:57:14.081 [OMNIBUS] RUM hardening complete. Integrity verified. debugger eval code:21:13
+23:57:14.081 undefined
+23:57:14.264 Source map error: Error: URL constructor:  is not a valid URL.
+Stack in the worker:resolveSourceMapURL@resource://devtools/client/shared/source-map-loader/utils/fetchSourceMap.js:56:22
+getOriginalURLs@resource://devtools/client/shared/source-map-loader/source-map.js:75:24
+workerHandler/</<@resource://devtools/client/shared/worker-utils.js:115:52
+workerHandler/<@resource://devtools/client/shared/worker-utils.js:113:13
+
+Resource URL: null
+Source Map URL: null
+00:05:17.699 /**
+ * OMNIBUS: Memory Safety Regression Test
+ * Purpose: Stress-test heap allocation to trigger potential UAF or overflow.
+ */
+(function stressHeap() {…
+00:05:17.738 [OMNIBUS] Initiating memory safety regression test... debugger eval code:6:13
+00:05:17.739 [OMNIBUS] Allocated 0MB debugger eval code:13:41
+00:05:17.756 [OMNIBUS] Allocated 1000MB debugger eval code:13:41
+00:05:17.767 [OMNIBUS] Allocated 2000MB debugger eval code:13:41
+00:05:17.778 [OMNIBUS] Allocated 3000MB debugger eval code:13:41
+00:05:17.787 [OMNIBUS] Allocated 4000MB debugger eval code:13:41
+00:05:17.795 [OMNIBUS] Allocated 5000MB debugger eval code:13:41
+00:05:17.804 [OMNIBUS] Allocated 6000MB debugger eval code:13:41
+00:05:17.844 [OMNIBUS] Allocated 7000MB debugger eval code:13:41
+00:05:17.956 [OMNIBUS] Allocated 8000MB debugger eval code:13:41
+00:05:18.014 [OMNIBUS] Allocated 9000MB debugger eval code:13:41
+00:05:18.070 [OMNIBUS] Allocated 10000MB debugger eval code:13:41
+00:05:18.121 [OMNIBUS] Allocated 11000MB debugger eval code:13:41
+00:05:18.180 [OMNIBUS] Allocated 12000MB debugger eval code:13:41
+00:05:18.190 [OMNIBUS] Allocated 13000MB debugger eval code:13:41
+00:05:18.361 [OMNIBUS] Allocated 14000MB debugger eval code:13:41
+00:05:18.436 [OMNIBUS] Allocated 15000MB debugger eval code:13:41
+00:05:18.515 [OMNIBUS] Allocated 16000MB debugger eval code:13:41
+00:05:18.596 [OMNIBUS] Allocated 17000MB debugger eval code:13:41
+00:05:18.683 [OMNIBUS] Allocated 18000MB debugger eval code:13:41
+00:05:18.765 [OMNIBUS] Allocated 19000MB debugger eval code:13:41
+00:05:18.895 [OMNIBUS] Allocated 20000MB debugger eval code:13:41
+00:05:19.092 [OMNIBUS] Allocated 21000MB debugger eval code:13:41
+00:05:19.354 [OMNIBUS] Allocated 22000MB debugger eval code:13:41
+00:05:21.750 [OMNIBUS] Heap allocation limit reached or corruption detected: undefined debugger eval code:16:17
+00:05:21.750 Source map error: Error: URL constructor:  is not a valid URL.
+Stack in the worker:resolveSourceMapURL@resource://devtools/client/shared/source-map-loader/utils/fetchSourceMap.js:56:22
+getOriginalURLs@resource://devtools/client/shared/source-map-loader/source-map.js:75:24
+workerHandler/</<@resource://devtools/client/shared/worker-utils.js:115:52
+workerHandler/<@resource://devtools/client/shared/worker-utils.js:113:13
+
+Resource URL: null
+Source Map URL: null
+00:05:21.751 undefined
+00:05:34.956 /**
+ * OMNIBUS: Egress Validation Test
+ * Purpose: Verify that telemetry beacons remain null-routed after patch application.
+ */
+(function validateEgress() {…
+00:05:35.013 [OMNIBUS] Validating egress suppression... debugger eval code:11:13
+00:05:35.013 undefined
+00:05:35.189 Source map error: Error: URL constructor:  is not a valid URL.
+Stack in the worker:resolveSourceMapURL@resource://devtools/client/shared/source-map-loader/utils/fetchSourceMap.js:56:22
+getOriginalURLs@resource://devtools/client/shared/source-map-loader/source-map.js:75:24
+workerHandler/</<@resource://devtools/client/shared/worker-utils.js:115:52
+workerHandler/<@resource://devtools/client/shared/worker-utils.js:113:13
+
+Resource URL: null
+Source Map URL: null
+00:05:44.982 /**
+ * OMNIBUS: Component Hook Integrity Test
+ * Purpose: Ensure WebSocket interceptor is still successfully bound.
+ */
+(function testHooks() {…
+00:05:45.036 [OMNIBUS] Checking WebSocket interceptor binding... debugger eval code:6:13
+00:05:45.036 [OMNIBUS] PASS: WebSocket Interceptor is active. debugger eval code:9:17
+00:05:45.036 undefined
+00:05:45.464 Source map error: Error: URL constructor:  is not a valid URL.
+Stack in the worker:resolveSourceMapURL@resource://devtools/client/shared/source-map-loader/utils/fetchSourceMap.js:56:22
+getOriginalURLs@resource://devtools/client/shared/source-map-loader/source-map.js:75:24
+workerHandler/</<@resource://devtools/client/shared/worker-utils.js:115:52
+workerHandler/<@resource://devtools/client/shared/worker-utils.js:113:13
+
+Resource URL: null
+Source Map URL: null
+00:07:15.289 math-shift: initial;
+00:07:15.320 Uncaught SyntaxError: unexpected token: ':' debugger eval code:1:17
+00:07:25.633 math-shift initial;
+00:07:25.662 Uncaught SyntaxError: unexpected token: identifier debugger eval code:1:18
+00:07:36.753 math-shift = null
+00:07:36.783 Uncaught SyntaxError: invalid assignment left-hand side debugger eval code:1:7
+00:07:41.542 math-shift=null
+00:07:41.571 Uncaught SyntaxError: invalid assignment left-hand side debugger eval code:1:7
+00:07:46.714 math-shift=1
+00:07:46.748 Uncaught SyntaxError: invalid assignment left-hand side debugger eval code:1:7
+00:07:52.732 math-shift=as
+00:07:52.762 Uncaught SyntaxError: invalid assignment left-hand side debugger eval code:1:7
+00:08:12.756 MathMLElement.PROCESSING_INSTRUCTION_NODE=1
+00:08:12.786 1
+00:08:14.960 Navigated to view-source:https://rum.hlx.page/.rum/@adobe/helix-rum-js
+00:08:14.974 Reloaded
+00:08:15.005 GET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js
+[HTTP/2 200  172ms]
+
+00:08:15.215 This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. helix-rum-js
+00:09:01.098 window.SAMPLE_PAGEVIEWS_AT_RATE
+00:09:01.131 undefined
+00:09:07.380 window.SAMPLE_PAGEVIEWS_AT_RATE=1
+00:09:07.408 1
+00:09:10.310 Navigated to view-source:https://rum.hlx.page/.rum/@adobe/helix-rum-js
+00:09:10.323 Reloaded
+00:09:10.338 GET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js
+[HTTP/2 200  102ms]
+
+00:09:10.468 This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. helix-rum-js
+00:09:28.409 window.performance.now()
+00:09:28.437 18109
+00:09:44.188 window.alert(performance.now)
+00:09:50.620 undefined
+00:10:27.501 console.debug(`ping:${e}`,r)},sampleRUM.sendPing("top",r())
+00:10:27.534 Uncaught SyntaxError: expected expression, got '}' debugger eval code:1:28
+00:10:32.114 console.debug(`ping:${e}`,r)},sampleRUM.sendPing("top",r()
+00:10:32.148 Uncaught SyntaxError: expected expression, got '}' debugger eval code:1:28
+00:10:47.087 console.debug(`ping:${e}`,r)
+ 
+  ,sampleRUM.sendPing("top",r();
+00:10:47.127 Uncaught SyntaxError: missing ) after argument list debugger eval code:3:32
+00:11:13.060 URLSearchParams(window.RUM_PARAMS).toString()
+00:11:13.090 Uncaught TypeError: URLSearchParams constructor: 'new' is required
+    <anonymous> debugger eval code:1
+debugger eval code:1:16
+00:11:13.165 Source map error: Error: URL constructor:  is not a valid URL.
+Stack in the worker:resolveSourceMapURL@resource://devtools/client/shared/source-map-loader/utils/fetchSourceMap.js:56:22
+getOriginalURLs@resource://devtools/client/shared/source-map-loader/source-map.js:75:24
+workerHandler/</<@resource://devtools/client/shared/worker-utils.js:115:52
+workerHandler/<@resource://devtools/client/shared/worker-utils.js:113:13
+
+Resource URL: null
+Source Map URL: null
+00:11:56.117 document.dispatchEvent(new CustomEvent("rum",{detail:{checkpoint:e,data:n}}))}catch(e){}}
+00:11:56.147 Uncaught SyntaxError: expected expression, got '}' debugger eval code:1:77
+00:11:59.769 document.dispatchEvent(new CustomEvent("rum",{detail:{checkpoint:e,data:n}}))}catch(e){}
+00:11:59.801 Uncaught SyntaxError: expected expression, got '}' debugger eval code:1:77
+00:12:54.787 ||sampleRUM.baseURL,sampleRUM.sendPing=(e,n,r={})=>{const o=navigator.webdriver&&!navigator.userAgent.includes("+http")?{ua:`${navigator.userAgent} +http://navigator.webdriver`}:{},a=JSON.stringify({weight:t,id:i,referer:window.location.origin+window.location.pathname,checkpoint:e,t:n,...r,...o})
+00:12:54.825 Uncaught SyntaxError: expected expression, got '||' debugger eval code:1:1
+00:13:13.432 \baseURL,sampleRUM.sendPing=(e,n,r={})=>{const o=navigator.webdriver&&!navigator.userAgent.includes("+http")?{ua:`${navigator.userAgent} +http://navigator.webdriver`}:{},a=JSON.stringify({weight:t,id:i,referer:window.location.origin+window.location.pathname,checkpoint:e,t:n,...r,...o})
+00:13:13.470 Uncaught SyntaxError: invalid escape sequence debugger eval code:1:1
+00:13:24.278 /**
+ * OMNIBUS: RUM Event Mirroring Hook
+ * Purpose: Silently ingest all RUM telemetry events dispatched by the client.
+ */
+document.addEventListener('rum', (event) => {…
+00:13:24.334 undefined
+00:13:34.565 Navigated to view-source:https://rum.hlx.page/.rum/@adobe/helix-rum
+00:13:34.600 GET
+https://rum.hlx.page/.rum/@adobe/helix-rum
+[HTTP/3 404  202ms]
+
+00:13:34.837 This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. helix-rum
+00:13:37.793 Navigated to view-source:https://rum.hlx.page/.rum/@adobe/helix-rum-js
+00:13:37.832 GET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js
+[HTTP/3 200  308ms]
+
+00:13:38.163 This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. helix-rum-js
+00:14:14.681 Navigated to view-source:https://rum.hlx.page/.rum/@adobe/helix-rum-js
+00:14:14.723 GET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js
+[HTTP/2 200  105ms]
+
+00:14:14.868 This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. helix-rum-js
+00:14:29.114 POST
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@%
+[HTTP/3 400  51ms]
+
+00:14:38.427 PATCH
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@%
+[HTTP/3 400  18ms]
+
+00:14:44.542 HEAD
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@%
+[HTTP/3 400  29ms]
+
+00:14:50.111 PUT
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@%
+[HTTP/3 400  20ms]
+
+00:14:57.114 GET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@%
+[HTTP/3 400  18ms]
+
+00:15:03.762 TRACE
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@%
+[HTTP/3 400  18ms]
+
+00:15:15.776 HEAD
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@^1
+[HTTP/3 400  18ms]
+
+00:15:21.145 GET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@^1
+[HTTP/3 200  21ms]
+
+00:15:38.713 PATCH
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@^1
+[HTTP/3 400  26ms]
+
+00:15:44.690 OPTIONS
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@^1
+[HTTP/3 204  16ms]
+
+00:15:57.026 await fetch("https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E1", {
+    "credentials": "omit",
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",…
+00:15:57.106 XHROPTIONS
+https://rum.hlx.page/.rum/@adobe/helix-rum-js@^1
+[HTTP/3 204  17ms]
+
+00:15:57.128
+Response { type: "basic", url: "https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E1", redirected: false, status: 204, ok: true, statusText: "", headers: Headers(7), body: ReadableStream, bodyUsed: false }
+
+00:17:38.479 Navigated to https://rum.hlx.page/.rum/@adobe/helix-rum-js
+00:17:38.714 GET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js
+[HTTP/3 200  226ms]
+
+00:17:39.189 GET
+https://rum.hlx.page/favicon.ico
+[HTTP/3 400  20ms]
+
+00:18:24.337 await fetch("https://rum.hlx.page/.rum/@adobe/helix-rum-js", {
+    "credentials": "omit",
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",…
+00:18:24.429 XHRGET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js
+[HTTP/3 200  347ms]
+
+00:18:24.751
+Response { type: "basic", url: "https://rum.hlx.page/.rum/@adobe/helix-rum-js", redirected: false, status: 200, ok: true, statusText: "", headers: Headers(24), body: ReadableStream, bodyUsed: false }
+
+00:19:02.480 await fetch("https://rum.hlx.page/.rum/@adobe/helix-rum-js", {
+    "credentials": "include",
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",…
+00:19:02.551 XHRGET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js
+[HTTP/3 200  73ms]
+
+00:19:02.605
+Response { type: "basic", url: "https://rum.hlx.page/.rum/@adobe/helix-rum-js", redirected: false, status: 200, ok: true, statusText: "", headers: Headers(19), body: ReadableStream, bodyUsed: false }
+
+00:21:39.117 /**
+ * OMNIBUS: Patch Mitigation Verification
+ * Purpose: Validate XSS/RCE patch efficacy for OMNIBUS-tracked shards.
+ */
+(function verifyPatch() {…
+00:21:39.168 [OMNIBUS] Initiating patch integrity verification... debugger eval code:6:13
+00:21:39.168 [OMNIBUS] XSS Mitigation: PASS debugger eval code:12:17
+00:21:39.168 [OMNIBUS] RCE Mitigation: PASS debugger eval code:21:17
+00:21:39.170 Uncaught ReferenceError: OMNIBUS is not defined
+    verifyPatch debugger eval code:27
+    <anonymous> debugger eval code:32
+debugger eval code:27:5
+00:22:14.715 /**
+ * OMNIBUS: Framework Re-Binding Protocol
+ * Purpose: Re-initialize the ledger bridge to resume archival.
+ */
+window.OMNIBUS = window.OMNIBUS || {…
+00:22:14.779 [OMNIBUS] Framework re-initialized. debugger eval code:14:9
+00:22:14.779 undefined
+00:23:20.361 /**
+ * OMNIBUS: Forensic Event Logging Protocol
+ * Purpose: Silently capture and anchor DOM/Network events to the vault.
+ */
+(function initiateLogging() {…
+00:23:20.431 [OMNIBUS] Event logging initialized. debugger eval code:6:13
+00:23:20.433 undefined
+00:23:32.330 // Verification command:
+console.table(window.OMNIBUS.ledger);
+00:23:32.371 console.table() debugger eval code:2:9
+00:23:32.375 undefined
+00:25:31.898 Fingerprinting Protection is altering screen.availWidth and screen.availHeight. These values may not match your actual screen dimensions. This protection helps prevent websites building a fingerprint that can be used to track users. Learn more: https://support.mozilla.org/kb/firefox-protection-against-fingerprinting helix-rum-js
+00:26:36.781 /**
+ * OMNIBUS: Browser-Context Asset Fetcher
+ * Purpose: Bypass WAF by utilizing the active browser's legitimate session.
+ */
+async function fetchAsset() {…
+00:26:36.848 [OMNIBUS] Ledger updated: LOG_FETCH_REQUEST debugger eval code:9:17
+00:26:36.851
+Promise { <state>: "pending" }
+
+00:26:36.857 XHRGET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js
+[HTTP/3 200  159ms]
+
+00:26:36.999 [OMNIBUS] Content successfully captured in browser context. debugger eval code:17:21
+00:26:36.999 [OMNIBUS] Ledger updated: ASSET_CAPTURE debugger eval code:9:17
+00:27:06.711 Navigated to https://rum.hlx.page/.rum/
+00:27:06.763 GET
+https://rum.hlx.page/.rum/
+[HTTP/3 400  21ms]
+
+00:27:06.954 GET
+https://rum.hlx.page/favicon.ico
+[HTTP/3 400  21ms]
+
+00:27:07.114 Fingerprinting Protection is altering screen.availWidth and screen.availHeight. These values may not match your actual screen dimensions. This protection helps prevent websites building a fingerprint that can be used to track users. Learn more: https://support.mozilla.org/kb/firefox-protection-against-fingerprinting .rum
+00:27:22.289 Navigated to https://rum.hlx.page/
+00:27:22.327 GET
+https://rum.hlx.page/
+[HTTP/3 400  21ms]
+
+00:27:22.456 GET
+https://rum.hlx.page/favicon.ico
+[HTTP/3 400  18ms]
+
+00:27:22.582 Fingerprinting Protection is altering screen.availWidth and screen.availHeight. These values may not match your actual screen dimensions. This protection helps prevent websites building a fingerprint that can be used to track users. Learn more: https://support.mozilla.org/kb/firefox-protection-against-fingerprinting rum.hlx.page
+00:27:28.448 /**
+ * OMNIBUS: Browser-Context Asset Fetcher
+ * Purpose: Bypass WAF by utilizing the active browser's legitimate session.
+ */
+async function fetchAsset() {…
+00:27:28.500
+Promise { <state>: "pending" }
+
+00:27:28.510 XHRGET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js
+[HTTP/3 200  22ms]
+
+00:27:28.538 [OMNIBUS] Content successfully captured in browser context. debugger eval code:17:21
+00:27:28.539 [OMNIBUS] Fetch error: TypeError: can't access property "deployLedger", window.OMNIBUS is undefined
+    fetchAsset debugger eval code:19
+    async* debugger eval code:28
+debugger eval code:25:17
+00:28:03.458 /**
+ * OMNIBUS: Final Vault Restoration
+ * Purpose: Re-initialize the bridge to lock the final forensic shards.
+ */
+window.OMNIBUS = window.OMNIBUS || {…
+00:28:03.508
+Promise { <state>: "pending" }
+
+00:28:03.523 XHRGET
+https://rum.hlx.page/.rum/@adobe/helix-rum-js
+[HTTP/3 200  128ms]
+
+00:28:03.604 [OMNIBUS] Ledger updated: ASSET_CAPTURE_RECOVERED debugger eval code:9:17
+00:28:03.609 [OMNIBUS] Vault Hash: 991712d8786b33e89558a4e6db49d5bb3049aea7428c53c15b10c9178803a775 debugger eval code:25:13
