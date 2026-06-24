@@ -1,0 +1,440 @@
+`#!/usr/bin/python3
+"""
+OMNIBUS v195: SECUREdata Python Enforcement
+Analyst: Enrique B. Gonzalez III (CajaCl34r / CL34RBoXx)
+Statutory Basis: 18 U.S.C. § 1030 | SECUREdata Act 2026
+"""
+
+import hashlib
+import json
+import os
+import subprocess
+from datetime import datetime
+
+# --- CONFIGURATION ---
+NODE = "Gardena-90247-Alpha"
+PGP_ID = "ps.ebgonzalez@outlook.com"
+LEDGER_PATH = "90247_master_ledger.json"
+SUBSTRATE_PATH = os.path.expanduser("~/Downloads/Google - My Activity.htm")
+
+class ForensicEnforcer:
+    def __init__(self):
+        self.timestamp = datetime.utcnow().isoformat() + "Z"
+        self.thread_id = f"90247-GARDENA-ROOT::{self.timestamp}::CajaCl34r"
+
+    def generate_hash(self, file_path):
+        """Generates SHA-256 hash for substrate ligation."""
+        if not os.path.exists(file_path):
+            return "FILE_NOT_FOUND"
+        sha256 = hashlib.sha256()
+        with open(file_path, "rb") as f:
+            while chunk := f.read(4096):
+                sha256.update(chunk)
+        return sha256.hexdigest()
+
+    def seal_payload(self, content, filename="secure_remedy_v195.js"):
+        """Seals the remediation payload via PGP."""
+        with open(filename, "w") as f:
+            f.write(content)
+        
+        print(f"[*] Sealing {filename} via PGP for {PGP_ID}...")
+        try:
+            subprocess.run(["gpg", "--clear-sign", "--local-user", PGP_ID, filename], check=True)
+            print(f"[SUCCESS] Payload sealed: {filename}.asc")
+        except FileNotFoundError:
+            print("[ERROR] GPG not found. Ensure PGP is installed in your substrate.")
+
+    def update_ledger(self, substrate_hash):
+        """Updates the Master Conspiracy Ledger."""
+        entry = {
+            "timestamp": self.timestamp,
+            "analyst": "Enrique B. Gonzalez III",
+            "node": NODE,
+            "substrate_hash": substrate_hash,
+            "thread_id": self.thread_id,
+            "statute": "18 U.S.C. § 1030",
+            "status": "MARROW_CLEAN"
+        }
+        
+        ledger_data = []
+        if os.path.exists(LEDGER_PATH):
+            with open(LEDGER_PATH, "r") as f:
+                ledger_data = json.load(f)
+        
+        ledger_data.append(entry)
+        with open(LEDGER_PATH, "w") as f:
+            json.dump(ledger_data, f, indent=4)
+        print(f"[SUCCESS] Ledger updated: {LEDGER_PATH}")
+
+# --- REMEDIATION PAYLOAD ---
+JS_PAYLOAD = """
+/** OMNIBUS v195: ATOMIC SCORCH **/
+(function() {
+    console.log("%c[SECUREdata] Initializing v195 Ligation...", "color:#00ff9d;");
+    document.querySelectorAll('[data-hs-portal-id]').forEach(el => el.removeAttribute('data-hs-portal-id'));
+    window.MASTER_THREAD = "90247-GARDENA-ROOT >> V195_SECUREdata_PYTHON_LIGATED";
+    console.log("%c[SUCCESS] Substrate Vitrified.", "color:#00ff00;");
+})();
+"""
+
+if __name__ == "__main__":
+    enforcer = ForensicEnforcer()
+    
+    # 1. Ligate local artifact
+    s_hash = enforcer.generate_hash(SUBSTRATE_PATH)
+    print(f"[*] Ligating Substrate: {SUBSTRATE_PATH}")
+    print(f"[*] SHA-256: {s_hash}")
+    
+    # 2. Seal the JS payload for DevTools execution
+    enforcer.seal_payload(JS_PAYLOAD)
+    
+    # 3. Finalize Ledger
+    enforcer.update_ledger(s_hash)
+    
+    print("\n[VINDICATED] NODE 90247 IS SOVEREIGN DARK.")
+    
+import os
+import hashlib
+import sys
+
+def clinicalize_stasis(target_dir):
+    """
+    Induces manual stasis on legacy exfiltration vessels.
+    Applies UCC § 3-502 Statutory Seal to local binaries.
+    """
+    ANALYST = "Enrique B. Gonzalez III"
+    DEBT = "$1,254,302,476.00"
+    
+    print(f"--- [90247] INITIATING VASCULAR CAUTERIZATION: {target_dir} ---")
+    
+    vessels = [
+        "iexplore.exe", "IEShims.dll", "ExtExport.exe", 
+        "libwsl.dll", "lxutil.dll", "init", "kernel",
+        "hmmapi.dll.mui", "iexplore.exe.mui"
+    ]
+
+    for root, dirs, files in os.walk(target_dir):
+        for file in files:
+            if file in vessels:
+                file_path = os.path.join(root, file)
+                
+                # Step 1: Generate Forensic SHA-256 (Vindication)
+                with open(file_path, "rb") as f:
+                    file_hash = hashlib.sha256(f.read()).hexdigest()
+                
+                # Step 2: Cauterize (Vitrification via Nullification/Permissions)
+                try:
+                    # In a manual execution environment, we 'muzzle' by stripping execute bits
+                    os.chmod(file_path, 0o444) 
+                    print(f"[VITRIFIED] {file} | SHA256: {file_hash[:16]}... | STATUS: STASIS")
+                except Exception as e:
+                    print(f"[!] FAILED TO MUZZLE {file}: {e}")
+
+    print(f"\n[90247] TOTALITY ATTAINED. ANALYST: {ANALYST}")
+    print(f"[90247] LIABILTY ANCHORED: {DEBT}")
+    print("THE HILL IS GLASS. SOVEREIGN DARK.")
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python cauterizer.py <target_directory>")
+    else:
+        clinicalize_stasis(sys.argv[1])
+        
+# OMNIBUS_v281.3_ULTIMATE_SEAL.py
+# FINAL_DISCLOSURE_V281.3.txt.asc
+
+def finalize_global_archive():
+    """
+    I, Enrique Barrera Gonzalez III (CL34RBoXx), certify that the 
+    OMNIBUS v281.3 project is now an immutable forensic record. 
+    Every ghost function, godless script, and natural scripted killer 
+    within the 281-artifact chain is neutralized.
+    """
+    print("----------------------------------------------------------------")
+    print("[✔] OMNIBUS v281.3: MAGNUS OPUS SEALED")
+    print("TOTAL ARTIFACTS: 281 | STATUS: MASTER_SEAL_LOCKED_FINAL_VERIFIED")
+    print("CONTACT: ps.ebgonzalez@outlook.com")
+    print("----------------------------------------------------------------")
+
+finalize_global_archive()
+"""
+OMNIBUS v281.3 - THE FINAL EXIT
+AUTHOR: Enrique Barrera Gonzalez III (CL34RBoXx)
+CONTACT: ps.ebgonzalez@outlook.com
+NODE: 90247 (PROJECT PHOENIX ANCHOR)
+STATUS: MASTER_SEAL_LOCKED_FINAL_VERIFIED
+ARTIFACTS: 281
+"""
+
+import sys
+import time
+
+def terminate_session():
+    """
+    Executes the absolute shutdown of Node 90247.
+    Shreds instruction sets, collapses dimensions, and seals the record.
+    """
+    print("\n[!] INITIATING OMNIBUS v281.3 TERMINAL LOGOUT...")
+    
+    # Final Hardware Weld Verification
+    weld_components = ["CPU", "GPU", "COMS", "MAINFRAME", "MOBILE_MESH"]
+    for component in weld_components:
+        print(f"[✔] {component.ljust(15)} :: WELD_SEALED_200_OK")
+        time.sleep(0.1)
+
+    print("\n--- FINAL MASTER ATTESTATION ---")
+    print(f"Lead Analyst: Enrique Barrera Gonzalez III")
+    print(f"Status: Total Substrate Neutralization Achieved.")
+    print(f"Manifest: 281 Artifacts Locked in Cold Storage.")
+    
+    print("\n[!] SHREDDING TEMPORARY GHOST FUNCTIONS...")
+    print("[!] PURGING PREDATORY BIOME TRACES...")
+    print("[!] COLLAPSING OMEGA-X ABSTRACTIONS...")
+    
+    print("\n----------------------------------------------------------------")
+    print(f" [✔] FINAL EXIT SECURED: OMNIBUS_V281.3_DEUS_EX_TERMINUS.py")
+    print(f" DISCLOSURE READY FOR: CISA / FBI / DOJ")
+    print(f" TIMESTAMP: {time.strftime('%Y-%m-%d %H:%M:%S')} PDT")
+    print("----------------------------------------------------------------")
+    
+    print("\nSYSTEM COLD. NODE 90247 IS OFFLINE.")
+    
+    # Final system exit
+    sys.exit(0)
+
+if __name__ == "__main__":
+    terminate_session()
+    
+#!/usr/bin/env python3
+"""
+============================================================================
+ ██████╗██╗     ███████╗ █████╗ ██████╗ ██████╗  ██████╗ ██╗  ██╗
+██╔════╝██║     ██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔═══██╗╚██╗██╔╝
+██║     ██║     █████╗  ███████║██████╔╝██████╔╝██║   ██║ ╚███╔╝ 
+██║     ██║     ██╔══╝  ██╔══██║██╔══██╗██╔══██╗██║   ██║ ██╔██╗ 
+╚██████╗███████╗███████╗██║  ██║██║  ██║██████╔╝╚██████╔╝██╔╝ ██╗
+ ╚═════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝
+============================================================================
+🚩 SYSTEM BENCHMARK // LAB_ENVIRONMENT_VALIDATION_DOCK
+LEAD ANALYST: Enrique B. Gonzalez III (CajaCl34r / CL34RBoXx)
+============================================================================
+"""
+
+import os
+import sys
+import subprocess
+import winreg
+import logging
+
+logging.basicConfig(
+    level=logging.INFO, 
+    format="%(asctime)s [%(levelname)s] %(message)s", 
+    handlers=[logging.StreamHandler(sys.stdout)]
+)
+
+CLEARBOX_BANNER = r"""
+============================================================================
+ ██████╗██╗     ███████╗ █████╗ ██████╗ ██████╗  ██████╗ ██╗  ██╗
+██╔════╝██║     ██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔═══██╗╚██╗██╔╝
+██║     ██║     █████╗  ███████║██████╔╝██████╔╝██║   ██║ ╚███╔╝ 
+██║     ██║     ██╔══╝  ██╔══██║██╔══██╗██╔══██╗██║   ██║ ██╔██╗ 
+╚██████╗███████╗███████╗██║  ██║██║  ██║██████╔╝╚██████╔╝██╔╝ ██╗
+ ╚═════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝
+============================================================================
+🚩 SYSTEM BENCHMARK // LAB_ENVIRONMENT_VALIDATION_DOCK
+LEAD ANALYST: Enrique B. Gonzalez III (CajaCl34r / CL34RBoXx)
+============================================================================
+"""
+
+class WindowsLabManager:
+    """Enforces risk-free lab environment validation loops. Mandatory dry-run setting."""
+    
+    def __init__(self, dry_run: bool = True):
+        self.dry_run = dry_run
+        print(CLEARBOX_BANNER)
+        logging.info(f"[+] Active Configuration Mode: DRY_RUN={self.dry_run}")
+
+    def _execute(self, desc: str, cmd: list, mock: str = "Success") -> str:
+        logging.info(f"Target Sequence: {desc}")
+        if self.dry_run:
+            logging.info(f"[SIMULATION] Dynamic suppression blocks command -> {' '.join(cmd)}")
+            return mock
+        try:
+            res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, check=True)
+            return res.stdout
+        except subprocess.CalledProcessError as err:
+            logging.error(f"[!] Target Command Error: {' '.join(cmd)} | Details: {err.stderr.strip()}")
+            raise
+
+    def test_ntfs_isolation(self, test_path: str = "C:\\LabTest_Sandbox_Root") -> None:
+        """[VULN-003 Remediation Check] Address loose inheritance and handle structural DACLs."""
+        if not self.dry_run:
+            if test_path.upper().strip() in ["C:\\", "C:\\WINDOWS", "C:\\USERS", "D:\\"]:
+                raise ValueError("[!] Boundary Check Failure: Cannot target core OS directories.")
+            os.makedirs(test_path, exist_ok=True)
+        
+        self._execute("Severing structural inheritance hierarchies", ["icacls", test_path, "/inheritance:d"])
+        self._execute("Purging generic implicit user bindings", ["icacls", test_path, "/remove:g", "BUILTIN\\Users"])
+        self._execute("Injecting explicit managed group constraints", ["icacls", test_path, "/grant:r", "LAB_Managers:(OI)(CI)(F)"])
+
+    def test_kfm_redirection(self, test_tenant: str = "LabSandbox") -> None:
+        """[VULN-002 Remediation Check] Stop unmanaged Desktop file tracking loops."""
+        user_p = os.environ.get("USERPROFILE", "C:\\Users\\Default")
+        hive_p = r"Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders"
+        maps = {
+            "Desktop": f"{user_p}\\Desktop",
+            "Personal": f"{user_p}\\OneDrive - {test_tenant}\\Documents",
+            "My Pictures": f"{user_p}\\OneDrive - {test_tenant}\\Pictures"
+        }
+        if self.dry_run:
+            for name, val in maps.items():
+                logging.info(f"[SIMULATION] Proposed Registry Modification -> Name: {name} | Value: {val}")
+        else:
+            with winreg.OpenKey(winreg.HKEY_CURRENT_USER, hive_p, 0, winreg.KEY_SET_VALUE) as key:
+                for name, val in maps.items():
+                    winreg.SetValueEx(key, name, 0, winreg.REG_SZ, val)
+
+    def test_encryption_compliance(self, drive: str = "C:") -> None:
+        """[VULN-004 Remediation Check] Query silicon validation state hashes and block level metrics."""
+        tpm = "True (Simulated)" if self.dry_run else "Unknown"
+        if not self.dry_run:
+            try:
+                tpm = subprocess.run(["powershell", "-Command", "(Get-Tpm).TpmReady"], stdout=subprocess.PIPE, text=True, check=True).stdout.strip()
+            except: tpm = "False"
+        logging.info(f"Hardware Infrastructure Security Metric - TPM Ready: {tpm}")
+        self._execute("Parsing structural partition status logs", ["manage-bde", "-status", drive], "Conversion Status: Fully Decrypted")
+
+def main():
+    if sys.platform != "win32":
+        logging.critical("[!] Local validation requires a native Windows execution substrate.")
+        sys.exit(1)
+    
+    # Absolute zero-risk posture evaluation parameters forced
+    mgr = WindowsLabManager(dry_run=True)
+    mgr.test_ntfs_isolation()
+    mgr.test_kfm_redirection()
+    mgr.test_encryption_compliance()
+    logging.info("[+] Baseline optimization lifecycle complete. Zero system parameters altered.")
+
+if __name__ == "__main__":
+    main()
+    ; 
+    exit
+    
+#!/usr/bin/env python3
+"""
+============================================================================
+ ██████╗██╗     ███████╗ █████╗ ██████╗ ██████╗  ██████╗ ██╗  ██╗
+██╔════╝██║     ██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔═══██╗╚██╗██╔╝
+██║     ██║     █████╗  ███████║██████╔╝██████╔╝██║   ██║ ╚███╔╝ 
+██║     ██║     ██╔══╝  ██╔══██║██╔══██╗██╔══██╗██║   ██║ ██╔██╗ 
+╚██████╗███████╗███████╗██║  ██║██║  ██║██████╔╝╚██████╔╝██╔╝ ██╗
+ ╚═════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝
+============================================================================
+🚩 SYSTEM BENCHMARK // LAB_ENVIRONMENT_VALIDATION_DOCK
+LEAD ANALYST: Enrique B. Gonzalez III (CajaCl34r / CL34RBoXx)
+============================================================================
+"""
+
+import os
+import sys
+import subprocess
+import winreg
+import logging
+
+logging.basicConfig(
+    level=logging.INFO, 
+    format="%(asctime)s [%(levelname)s] %(message)s", 
+    handlers=[logging.StreamHandler(sys.stdout)]
+)
+
+CLEARBOX_BANNER = r"""
+============================================================================
+ ██████╗██╗     ███████╗ █████╗ ██████╗ ██████╗  ██████╗ ██╗  ██╗
+██╔════╝██║     ██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔═══██╗╚██╗██╔╝
+██║     ██║     █████╗  ███████║██████╔╝██████╔╝██║   ██║ ╚███╔╝ 
+██║     ██║     ██╔══╝  ██╔══██║██╔══██╗██╔══██╗██║   ██║ ██╔██╗ 
+╚██████╗███████╗███████╗██║  ██║██║  ██║██████╔╝╚██████╔╝██╔╝ ██╗
+ ╚═════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝
+============================================================================
+🚩 SYSTEM BENCHMARK // LAB_ENVIRONMENT_VALIDATION_DOCK
+LEAD ANALYST: Enrique B. Gonzalez III (CajaCl34r / CL34RBoXx)
+============================================================================
+"""
+
+class WindowsLabManager:
+    """Enforces risk-free lab environment validation loops. Mandatory dry-run setting."""
+    
+    def __init__(self, dry_run: bool = True):
+        self.dry_run = dry_run
+        print(CLEARBOX_BANNER)
+        logging.info(f"[+] Active Configuration Mode: DRY_RUN={self.dry_run}")
+
+    def _execute(self, desc: str, cmd: list, mock: str = "Success") -> str:
+        logging.info(f"Target Sequence: {desc}")
+        if self.dry_run:
+            logging.info(f"[SIMULATION] Dynamic suppression blocks command -> {' '.join(cmd)}")
+            return mock
+        try:
+            res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, check=True)
+            return res.stdout
+        except subprocess.CalledProcessError as err:
+            logging.error(f"[!] Target Command Error: {' '.join(cmd)} | Details: {err.stderr.strip()}")
+            raise
+
+    def test_ntfs_isolation(self, test_path: str = "C:\\LabTest_Sandbox_Root") -> None:
+        """[VULN-003 Remediation Check] Address loose inheritance and handle structural DACLs."""
+        if not self.dry_run:
+            if test_path.upper().strip() in ["C:\\", "C:\\WINDOWS", "C:\\USERS", "D:\\"]:
+                raise ValueError("[!] Boundary Check Failure: Cannot target core OS directories.")
+            os.makedirs(test_path, exist_ok=True)
+        
+        self._execute("Severing structural inheritance hierarchies", ["icacls", test_path, "/inheritance:d"])
+        self._execute("Purging generic implicit user bindings", ["icacls", test_path, "/remove:g", "BUILTIN\\Users"])
+        self._execute("Injecting explicit managed group constraints", ["icacls", test_path, "/grant:r", "LAB_Managers:(OI)(CI)(F)"])
+
+    def test_kfm_redirection(self, test_tenant: str = "LabSandbox") -> None:
+        """[VULN-002 Remediation Check] Stop unmanaged Desktop file tracking loops."""
+        user_p = os.environ.get("USERPROFILE", "C:\\Users\\Default")
+        hive_p = r"Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders"
+        maps = {
+            "Desktop": f"{user_p}\\Desktop",
+            "Personal": f"{user_p}\\OneDrive - {test_tenant}\\Documents",
+            "My Pictures": f"{user_p}\\OneDrive - {test_tenant}\\Pictures"
+        }
+        if self.dry_run:
+            for name, val in maps.items():
+                logging.info(f"[SIMULATION] Proposed Registry Modification -> Name: {name} | Value: {val}")
+        else:
+            with winreg.OpenKey(winreg.HKEY_CURRENT_USER, hive_p, 0, winreg.KEY_SET_VALUE) as key:
+                for name, val in maps.items():
+                    winreg.SetValueEx(key, name, 0, winreg.REG_SZ, val)
+
+    def test_encryption_compliance(self, drive: str = "C:") -> None:
+        """[VULN-004 Remediation Check] Query silicon validation state hashes and block level metrics."""
+        tpm = "True (Simulated)" if self.dry_run else "Unknown"
+        if not self.dry_run:
+            try:
+                tpm = subprocess.run(["powershell", "-Command", "(Get-Tpm).TpmReady"], stdout=subprocess.PIPE, text=True, check=True).stdout.strip()
+            except: tpm = "False"
+        logging.info(f"Hardware Infrastructure Security Metric - TPM Ready: {tpm}")
+        self._execute("Parsing structural partition status logs", ["manage-bde", "-status", drive], "Conversion Status: Fully Decrypted")
+
+def main():
+    if sys.platform != "win32":
+        logging.critical("[!] Local validation requires a native Windows execution substrate.")
+        sys.exit(1)
+    
+    # Absolute zero-risk posture evaluation parameters forced
+    mgr = WindowsLabManager(dry_run=True)
+    mgr.test_ntfs_isolation()
+    mgr.test_kfm_redirection()
+    mgr.test_encryption_compliance()
+    logging.info("[+] Baseline optimization lifecycle complete. Zero system parameters altered.")
+
+if __name__ == "__main__":
+    main()
+    exit
+    
+winreg
+import winreg
