@@ -1,0 +1,417 @@
+
+=== C:\Users\enriq ===
+
+FileName                 Extension SizeBytes LineCount LastWrite
+--------                 --------- --------- --------- ---------
+WinSxS_Manifest_List.txt .txt              0         0 6/12/2026 12:27:18 AM
+
+
+
+=== C:\Users\enriq\CrossDevice\Enrique's S24 FE\storage\Download ===
+
+FileName                                 Extension SizeBytes LineCount LastWrite
+--------                                 --------- --------- --------- ---------
+7b0cfed4-ca0c-4140-96e9-35103aa9ff9a.txt .txt          71111      1687 3/30/2026 8:05:52 PM
+
+
+
+=== C:\Users\enriq\CrossDevice\Enrique's S24 FE\storage\log\BixbyPDSS ===
+
+FileName        Extension SizeBytes LineCount LastWrite
+--------        --------- --------- --------- ---------
+BixbyPDSS_1.log .log         222653      1547 12/21/2024 11:20:09 AM
+BixbyPDSS_2.log .log         125493       863 2/4/2025 1:03:30 PM
+BixbyPDSS_3.log .log          90927       789 3/7/2025 3:54:18 PM
+BixbyPDSS.log   .log          66014       353 11/2/2025 6:29:43 PM
+
+
+
+=== C:\Users\enriq\CrossDevice\Enrique's S24 FE\storage\myvoice\running ===
+
+FileName       Extension SizeBytes LineCount LastWrite
+--------       --------- --------- --------- ---------
+log_Wakeup.txt .txt          66190       490 2/27/2025 8:30:18 AM
+
+
+
+=== C:\Users\enriq\Downloads ===
+
+FileName                                                  Extension SizeBytes LineCount LastWrite
+--------                                                  --------- --------- --------- ---------
+#safe.txt                                                 .txt          10974       262 5/26/2026 11:36:16 PM
+00_EXECUTIVE_SUMMARY_restored.txt                         .txt           6693        81 5/12/2026 6:49:23 PM
+00_EXECUTIVE_SUMMARY.txt                                  .txt           6693        81 5/15/2026 9:22:40 PM
+01_FORENSIC_REPORT_restored.txt                           .txt          20021       297 5/12/2026 6:49:26 PM
+01_FORENSIC_REPORT.txt                                    .txt          20021       297 5/15/2026 9:22:40 PM
+02_CUSIP_ACCOUNTING_TABLE_restored.txt                    .txt          10213        75 5/12/2026 6:50:34 PM
+02_CUSIP_ACCOUNTING_TABLE.txt                             .txt          10213        75 5/15/2026 9:22:40 PM
+02d2a8e44e6a93c9.js                                       .js            8604         1 5/10/2026 3:05:07 PM
+03_ENGINEERING_CHECKLIST_restored.txt                     .txt          10783       134 5/12/2026 6:50:24 PM
+03_ENGINEERING_CHECKLIST.txt                              .txt          10783       134 5/15/2026 9:22:40 PM
+04_CSP_RUNBOOK_restored.txt                               .txt           8084       122 5/12/2026 6:50:21 PM
+04_CSP_RUNBOOK.txt                                        .txt           8084       122 5/15/2026 9:22:40 PM
+05_CSS_COMPATIBILITY_REPORT_restored.txt                  .txt           8057       120 5/12/2026 6:50:18 PM
+05_CSS_COMPATIBILITY_REPORT.txt                           .txt           8057       120 5/15/2026 9:22:40 PM
+06_REDACTION_MANIFEST_restored.txt                        .txt           6677        79 5/12/2026 6:50:14 PM
+06_REDACTION_MANIFEST.txt                                 .txt           6677        79 5/15/2026 9:22:40 PM
+07_DISCLOSURE_MANIFEST_restored.txt                       .txt           6725        86 5/12/2026 6:50:11 PM
+07_DISCLOSURE_MANIFEST.txt                                .txt           6725        86 5/15/2026 9:22:40 PM
+08a_waf_csp_sentry_validate_restored.txt                  .txt           5898       123 5/12/2026 6:49:43 PM
+08a_waf_csp_sentry_validate.txt                           .txt           5898       123 5/15/2026 9:22:40 PM
+08b_curl_replay_snippets_restored.txt                     .txt           2624        59 5/12/2026 6:49:36 PM
+08b_curl_replay_snippets.txt                              .txt           2624        59 5/15/2026 9:22:40 PM
+08c_node_replay_restored.txt                              .txt           5278       123 5/12/2026 6:49:33 PM
+08c_node_replay.txt                                       .txt           5278       123 5/15/2026 9:22:40 PM
+08d_test_harness_README_restored.txt                      .txt           4290        60 5/12/2026 6:49:54 PM
+08d_test_harness_README.txt                               .txt           4290        60 5/15/2026 9:22:40 PM
+09_PACKAGING_INSTRUCTIONS_restored.txt                    .txt           8733       130 5/12/2026 6:50:08 PM
+09_PACKAGING_INSTRUCTIONS.txt                             .txt           8733       130 5/15/2026 9:22:40 PM
+10_TRANSMISSION_CHECKLIST_restored.txt                    .txt           7718        81 5/12/2026 6:50:05 PM
+10_TRANSMISSION_CHECKLIST.txt                             .txt           7718        81 5/15/2026 9:22:40 PM
+38522-46e9c3de9300e3f6.js                                 .js           11084         3 5/8/2026 2:26:18 AM
+64b141da-fb31-4c3a-ae4e-ac1654a8bc33.txt                  .txt         184558        40 5/26/2026 1:10:50 AM
+68751-830b37204cdf7847.js                                 .js           11877         3 5/8/2026 2:26:14 AM
+6thSun.js                                                 .js            2783        75 5/6/2026 11:59:48 PM
+ac-globalfooter.built.js                                  .js            6983         1 5/10/2026 2:31:22 PM
+appleid.apple.com-1778448582340.log                       .log         819153     11944 5/10/2026 2:29:44 PM
+atomoscorch.sh                                            .sh            1293        28 5/18/2026 7:47:17 PM
+ATTESTATION_90247_GARDENA_20260508_055415.log             .log            597        18 5/25/2026 12:47:58 AM
+behaviors-5707c00292733536.js                             .js          213962        29 5/8/2026 2:26:09 AM
+bitwarden.com-1778578420779.log                           .log          91525      1750 5/12/2026 2:33:42 AM
+bitwarden.com-1778585022104.log                           .log         705274      6928 5/12/2026 4:23:44 AM
+bundle.b64.txt                                            .txt           7637         1 5/15/2026 4:27:43 PM
+cefa4516-1d36-44b1-9245-4d7835db122c.txt                  .txt         184558        40 5/26/2026 1:10:48 AM
+CERT_IDENTITY_MUMMIFICATION_V18.txt                       .txt            614        16 5/9/2026 10:25:15 PM
+console-export-2026-5-10_8-35-16.log                      .log          21537       287 5/10/2026 8:35:19 AM
+console-export-2026-5-10_9-14-25.log                      .log          63299       801 5/10/2026 9:14:28 AM
+console-export-2026-5-7_1-54-12_restored.log              .log          67345       745 5/7/2026 1:54:14 AM
+console-export-2026-5-7_1-54-12.log                       .log          67345       745 5/7/2026 1:54:16 AM
+console-export-2026-5-7_19-59-1_restored.log              .log            931        30 5/7/2026 7:59:03 PM
+console-export-2026-5-7_19-59-1.log                       .log            931        30 5/7/2026 7:59:04 PM
+console-export-2026-5-7_3-55-15_restored.log              .log          41780       284 5/7/2026 3:55:17 AM
+console-export-2026-5-7_3-55-15.log                       .log          41780       284 5/7/2026 3:55:18 AM
+console-export-2026-5-7_4-5-43_restored.log               .log          51515       253 5/7/2026 4:05:46 AM
+console-export-2026-5-7_4-5-43.log                        .log          51515       253 5/7/2026 4:05:48 AM
+console-export-2026-5-7_4-9-16_restored.log               .log          63378       535 5/7/2026 4:09:18 AM
+console-export-2026-5-7_4-9-16.log                        .log          63378       535 5/7/2026 4:09:20 AM
+console-export-2026-5-7_5-41-50_restored.log              .log          40631       264 5/7/2026 5:41:53 AM
+console-export-2026-5-7_5-41-50.log                       .log          40631       264 5/7/2026 5:41:54 AM
+console-export-2026-5-7_5-42-19_restored.log              .log          41088       271 5/7/2026 5:42:21 AM
+console-export-2026-5-7_5-42-19.log                       .log          41088       271 5/7/2026 5:42:22 AM
+console-export-2026-5-7_5-45-28_restored.log              .log          31955       229 5/7/2026 5:45:30 AM
+console-export-2026-5-7_5-45-28.log                       .log          31955       229 5/7/2026 5:45:32 AM
+console-export-2026-5-8_12-21-26_restored.log             .log          40235       588 5/8/2026 12:21:28 PM
+console-export-2026-5-8_12-21-26.log                      .log          40235       588 5/8/2026 12:21:28 PM
+console-export-2026-5-8_13-36-6_restored.log              .log          54227       423 5/8/2026 1:36:21 PM
+console-export-2026-5-8_13-36-6.log                       .log          54227       423 5/8/2026 1:36:20 PM
+console-export-2026-5-8_13-36-6(1)_restored.log           .log          54227       423 5/8/2026 1:39:56 PM
+console-export-2026-5-8_13-36-6(1).log                    .log          54227       423 5/8/2026 1:39:56 PM
+console-export-2026-5-8_15-38-4_restored.log              .log          56112       479 5/8/2026 3:38:11 PM
+console-export-2026-5-8_15-38-4.log                       .log          56112       479 5/8/2026 3:38:10 PM
+console-export-2026-6-6_21-36-32.log                      .log          10328       129 6/6/2026 9:36:36 PM
+console-export-2026-6-9_4-9-56.log                        .log          11160       194 6/9/2026 4:09:58 AM
+copilot.microsoft.com-1778445479816.log                   .log        1286696      1325 5/10/2026 1:38:01 PM
+csv_restored.txt                                          .txt            417         5 5/7/2026 2:06:36 AM
+csv.txt                                                   .txt            417         5 5/7/2026 2:06:38 AM
+current_telemetry.txt                                     .txt       24493911    399868 6/6/2026 3:15:58 AM
+developer.mozilla.org-1778405107472.log                   .log          46551       623 5/10/2026 2:25:09 AM
+DISCLOSURE_SUMMARY_V18 (1).txt                            .txt            816        19 5/9/2026 9:54:22 PM
+DISCLOSURE_SUMMARY_V18.txt                                .txt            816        19 5/9/2026 9:48:53 PM
+document-code-32-BpyxwNBm.js                              .js            4351         2 6/7/2026 5:26:28 AM
+encrypt.0.sh                                              .sh             665        19 5/16/2026 1:46:42 PM
+eulers -1.sh                                              .sh            1238        28 5/18/2026 8:21:42 PM
+fcde1ce3-bfb4-4b1d-a82e-cfe8c7734d21.txt                  .txt         184558        40 5/26/2026 1:10:53 AM
+format-phonenumber.js                                     .js          578692        83 5/10/2026 2:31:08 PM
+fulld.sh                                                  .sh            1521        44 5/16/2026 1:49:23 PM
+gemini-code-1778132929480.js                              .js            3319        92 5/6/2026 10:48:58 PM
+gemini-code-1778137011506.js                              .js            2705        68 5/6/2026 11:56:58 PM
+gemini-code-1778149725666.js                              .js            1944        60 5/7/2026 3:28:48 AM
+gemini-code-1778150771693.js                              .js            1676        43 5/7/2026 3:46:14 AM
+gemini-code-1778152621979.js                              .js            1223        37 5/7/2026 4:17:04 AM
+gemini-code-1778184589505.sh                              .sh            1055        27 5/7/2026 1:09:52 PM
+gemini-code-1778244369475.sh                              .sh            2786        77 5/8/2026 5:46:08 AM
+gemini-code-1778245117839.sh                              .sh             361        10 5/8/2026 5:58:38 AM
+gemini-code-1778248354129.sh                              .sh            1511        45 5/8/2026 6:52:34 AM
+gemini-code-1778261412364.sh                              .sh            1819        59 5/8/2026 10:30:12 AM
+gemini-code-1778264618545.txt                             .txt           1390        30 5/8/2026 11:23:38 AM
+gemini-code-1778265134678.sh                              .sh            1486        37 5/8/2026 11:32:14 AM
+gemini-code-1778266147179.sh                              .sh            1426        41 5/8/2026 11:49:06 AM
+gemini-code-1778270347007.sh                              .sh            1435        36 5/8/2026 12:59:06 PM
+gemini-code-1778373352233.js                              .js            1016        32 5/9/2026 5:36:00 PM
+gemini-code-1778577530769.py                              .py            3307        81 5/16/2026 8:05:40 AM
+gemini-code-1778661269122.js                              .js            5354       113 5/16/2026 8:05:40 AM
+gemini-code-1778663311925.js                              .js            3305        61 5/16/2026 8:05:40 AM
+gemini-code-1778672881887.js                              .js             679        23 5/16/2026 8:05:40 AM
+gemini-code-1778688952874.js                              .js            1547        41 5/16/2026 8:05:40 AM
+gemini-code-1778699467949.sh                              .sh            3762        88 5/16/2026 8:05:40 AM
+gemini-code-1778708446519.sh                              .sh            4477        95 5/16/2026 8:05:40 AM
+gemini-code-1778731497287.sh                              .sh            2157        57 5/16/2026 8:05:40 AM
+gemini-code-1778894964526_restored.sh                     .sh            6057       137 5/26/2026 11:32:56 PM
+gemini-code-1778894964526.sh                              .sh            6057       137 5/16/2026 8:05:40 AM
+gemini-code-1778905412109.js                              .js             804        25 5/16/2026 8:05:40 AM
+gemini-code-1778906256299.js                              .js            1036        28 5/16/2026 8:05:40 AM
+gemini-code-1778906276090.js                              .js            2280        60 5/16/2026 8:05:40 AM
+gemini-code-1778937914878.js                              .js            6713       133 5/16/2026 8:05:40 AM
+gemini-code-1778964653082.sh                              .sh             668        14 5/16/2026 1:50:57 PM
+gemini-code-1778964661436.txt                             .txt            523        14 5/16/2026 1:51:04 PM
+gemini-code-1778964670509.txt                             .txt           1422        32 5/16/2026 1:51:16 PM
+gemini-code-1778964683765.txt                             .txt           1369        31 5/16/2026 1:51:26 PM
+gemini-code-1778964693973.txt                             .txt           1373        31 5/16/2026 1:51:36 PM
+gemini-code-1778964839719.sh                              .sh            1896        59 5/16/2026 1:54:11 PM
+gemini-code-1778965035449.js                              .js            3564       101 5/16/2026 1:58:12 PM
+gemini-code-1778965050281.js                              .js            3564       101 5/16/2026 1:58:12 PM
+gemini-code-1779130970152.sh                              .sh            9722       202 5/18/2026 2:55:06 PM
+gemini-code-1779199520185.md                              .md            1243        26 5/19/2026 7:05:37 AM
+gemini-code-1779378541605.js                              .js            3519        80 5/21/2026 9:02:40 AM
+gemini-code-1779422232614.js                              .js            2034        51 5/21/2026 11:08:54 PM
+gemini-code-1779422541058.js                              .js            3370        67 5/21/2026 11:08:54 PM
+gemini-code-1779422548794.js                              .js            3093        62 5/21/2026 11:08:53 PM
+gemini-code-1779422550305.js                              .js             378         7 5/21/2026 11:09:01 PM
+gemini-code-1779422553122.js                              .js             273         5 5/21/2026 11:09:07 PM
+gemini-code-1779516408323.sh                              .sh            2615        64 5/22/2026 11:06:50 PM
+gemini-code-1779547575279.js                              .js            4239        93 5/23/2026 3:37:59 PM
+gemini-code-1779547908725.js                              .js            1880        36 5/23/2026 3:38:00 PM
+gemini-code-1779548052499.js                              .js            2012        38 5/23/2026 3:37:59 PM
+gemini-code-1779555905538.js                              .js            1999        36 5/23/2026 3:37:59 PM
+gemini-code-1779858798853.sh                              .sh             257         4 5/26/2026 11:32:59 PM
+gemini-code-1779885906689.sh                              .sh            1452        43 5/27/2026 9:36:39 AM
+gemini-code-1780110786836.sh                              .sh            5771       119 5/29/2026 8:13:07 PM
+gemini-code-1780110880410.sh                              .sh             577        14 5/29/2026 8:14:40 PM
+gemini-code-1780110909856.sh                              .sh             552        12 5/29/2026 8:15:10 PM
+gemini-code-1780110937856.sh                              .sh             496         9 5/29/2026 8:15:37 PM
+gemini-code-1780111072443.js                              .js             848        22 5/29/2026 8:17:52 PM
+gemini-code-1780111272708.js                              .js             143         2 5/29/2026 8:21:12 PM
+gemini-code-1780111430059.js                              .js             989        23 5/29/2026 8:23:50 PM
+gemini-code-1780111486553.js                              .js            1655        41 5/29/2026 8:24:46 PM
+gemini-code-1780115632703.sh                              .sh             781        18 5/29/2026 9:33:53 PM
+gemini-code-1780129382555.sh                              .sh             718        25 5/30/2026 1:23:02 AM
+gemini-code-1780136892687.sh                              .sh            1722        42 5/31/2026 11:02:26 AM
+gemini-code-1780175922771.txt                             .txt            117         2 5/31/2026 11:02:23 AM
+gemini-code-1780250531941.js                              .js             841        25 5/31/2026 11:02:25 AM
+gemini-code-1780289214678.txt                             .txt           1857        45 5/31/2026 9:47:00 PM
+gemini-code-1780289258097.txt                             .txt           1862        36 6/1/2026 3:52:22 AM
+gemini-code-1780289259592.txt                             .txt           1862        36 6/1/2026 3:52:19 AM
+gemini-code-1780290131779.txt                             .txt           1122        32 6/1/2026 3:52:17 AM
+gemini-code-1780290144293.txt                             .txt            960        29 6/1/2026 3:52:05 AM
+gemini-code-1780290147020.txt                             .txt           1157        33 6/1/2026 3:52:02 AM
+gemini-code-1780290152703.txt                             .txt           1125        32 6/1/2026 3:52:01 AM
+gemini-code-1780290184135.txt                             .txt           1384        39 6/1/2026 3:51:58 AM
+gemini-code-1780290189993.txt                             .txt           1402        35 6/1/2026 3:51:51 AM
+gemini-code-1780311098164.py                              .py            3283        72 6/1/2026 7:21:31 AM
+gemini-code-1780311504274.sh                              .sh            4454       105 6/1/2026 5:08:29 AM
+gemini-code-1780317454188.sh                              .sh            7306       162 6/1/2026 6:36:57 AM
+gemini-code-1780317459642.sh                              .sh           12218       241 6/1/2026 6:36:54 AM
+gemini-code-1780317497336.sh                              .sh            7461       163 6/1/2026 6:36:51 AM
+gemini-code-1780318067011.sh                              .sh            2494        64 6/1/2026 6:36:42 AM
+gemini-code-1780320810354.js                              .js            8434       214 6/1/2026 7:21:28 AM
+gemini-code-1780320989100.js                              .js           10100       237 6/1/2026 7:21:29 AM
+gemini-code-1780321250410.js                              .js            4941       115 6/1/2026 7:21:28 AM
+gemini-code-1780321370406.js                              .js           13877       332 6/1/2026 7:21:26 AM
+gemini-code-1780321450867.js                              .js           11196       277 6/1/2026 7:21:23 AM
+gemini-code-1780321530608.js                              .js           12172       287 6/1/2026 7:21:22 AM
+gemini-code-1780321704253.js                              .js           12773       299 6/1/2026 7:21:22 AM
+gemini-code-1780321880435.js                              .js            4199        99 6/1/2026 7:21:21 AM
+gemini-code-1780322151431.js                              .js            4459       107 6/1/2026 7:21:22 AM
+gemini-code-1780323390503.sh                              .sh            1527        47 6/1/2026 7:16:35 AM
+gemini-code-1780323673176.sh                              .sh            1614        50 6/1/2026 7:21:17 AM
+gemini-code-1780348455095.sh                              .sh            2226        59 6/1/2026 2:14:25 PM
+gemini-code-1780578844112.sh                              .sh            1938        58 6/4/2026 6:14:10 AM
+gemini-code-1780581114683.sh                              .sh             876        27 6/5/2026 8:43:15 PM
+gemini-code-1780581120871.sh                              .sh            1135        36 6/5/2026 8:43:11 PM
+gemini-code-1780707170981.sh                              .sh            6752       112 6/5/2026 8:42:21 PM
+gemini-code-1780709948083.sh                              .sh            2226        42 6/5/2026 8:42:16 PM
+gemini-code-1780718485902.sh                              .sh            1938        62 6/6/2026 1:55:08 AM
+gemini-code-1780740199524.sh                              .sh              58         1 6/6/2026 4:37:34 AM
+gemini-code-1780822612898.sh                              .sh              24         1 6/7/2026 3:24:55 AM
+gemini-code-1780852824097.js                              .js            5255       180 6/7/2026 10:20:24 AM
+gemini-code-1780853284950.js                              .js            2341        70 6/7/2026 10:28:05 AM
+gemini-code-1780861868393.sh                              .sh            3128        88 6/7/2026 3:17:32 PM
+gemini-code-1780861871700.sh                              .sh            3170        88 6/7/2026 3:17:34 PM
+gemini-code-1781005258631.js                              .js            2056        57 6/9/2026 11:44:55 AM
+gemini-code-1781005270665.sh                              .sh            1694        52 6/9/2026 11:42:03 AM
+gemini-code-1781005393953.sh                              .sh            2087        62 6/9/2026 11:42:04 AM
+gemini-code-1781005400856.sh                              .sh            1191        38 6/9/2026 11:42:05 AM
+gemini-code-1781005414981.sh                              .sh            1256        39 6/9/2026 11:42:06 AM
+gemini-code-1781005421111.sh                              .sh            1252        38 6/9/2026 11:42:07 AM
+gemini-code-1781005457063.sh                              .sh            1776        52 6/9/2026 11:42:36 AM
+gemini-code-1781005470381.sh                              .sh            1726        51 6/9/2026 11:42:37 AM
+gemini-code-1781005478612.sh                              .sh            2699        81 6/9/2026 11:42:38 AM
+gemini-code-1781005488015.sh                              .sh            1800        61 6/9/2026 11:42:40 AM
+gemini-code-1781005496271.sh                              .sh            2283        59 6/9/2026 11:42:41 AM
+gemini-code-1781005518964.sh                              .sh            1269        37 6/9/2026 11:42:42 AM
+gemini-code-1781005535305.sh                              .sh            1300        37 6/9/2026 11:42:43 AM
+gemini-code-1781005551522.js                              .js            1228        38 6/9/2026 11:42:51 AM
+gemini-code-1781005562087.js                              .js            1925        59 6/9/2026 11:42:52 AM
+gemini-code-1781005657620.sh                              .sh            1736        42 6/9/2026 11:42:48 AM
+gemini-code-1781005665640.sh                              .sh            1918        44 6/9/2026 11:42:49 AM
+gemini-code-1781005678392.sh                              .sh             265         4 6/9/2026 11:42:51 AM
+gemini-code-1781005685373.js                              .js             822        24 6/9/2026 11:42:56 AM
+gemini-code-1781005694766.sh                              .sh            1757        42 6/9/2026 11:42:54 AM
+gemini-code-1781005709467.js                              .js             823        20 6/9/2026 11:42:57 AM
+gemini-code-1781005732813.sh                              .sh            2068        50 6/9/2026 11:43:48 AM
+gemini-code-1781005920836.sh                              .sh            1850        47 6/9/2026 11:43:50 AM
+gemini-code-1781005926231.sh                              .sh            2260        50 6/9/2026 11:43:51 AM
+gemini-code-1781005962634.sh                              .sh            2503        64 6/9/2026 11:43:52 AM
+gemini-code-1781005987068.sh                              .sh            2213        59 6/9/2026 11:43:53 AM
+gemini-code-1781006004472.sh                              .sh            2380        62 6/9/2026 11:43:54 AM
+gemini-code-1781024391155.py                              .py            8803       189 6/9/2026 11:44:40 AM
+gemini-code-1781024961456.js                              .js            9124       191 6/9/2026 11:44:39 AM
+gemini-code-1781025114629.py                              .py            8693       181 6/9/2026 11:44:33 AM
+gemini-code-1781026051925.sh                              .sh            4576        97 6/9/2026 11:40:38 AM
+gemini-code-1781026702119.js                              .js            9190       239 6/9/2026 11:44:24 AM
+gemini-code-1781026796710.js                              .js            9182       237 6/9/2026 11:44:29 AM
+gemini-code-1781218921528.sh                              .sh             621        14 6/11/2026 4:02:02 PM
+gemini-code-1781242103158.txt                             .txt            879        11 6/12/2026 4:08:45 AM
+gemini-code-1781281240561.sh                              .sh            2560        65 6/12/2026 9:20:45 AM
+gemini.google.com-1778044816744_restored.log              .log          96307       938 5/5/2026 10:20:19 PM
+gemini.google.com-1778044816744.log                       .log          96307       938 5/5/2026 10:20:20 PM
+gemini.google.com-1778383160599.log                       .log         273631      2354 5/9/2026 8:19:23 PM
+gemini.google.com-1780972836915.log                       .log        2156999     16783 6/8/2026 7:40:43 PM
+gemini.google.com-1780993410628.log                       .log        1242674     28566 6/9/2026 1:23:37 AM
+gtm_restored.js                                           .js          490586      1053 5/6/2026 4:19:40 PM
+gtm.js                                                    .js          490586      1053 5/6/2026 4:19:42 PM
+hackerone.com-1778371361940_restored.log                  .log        1536843      2602 5/9/2026 5:02:44 PM
+hackerone.com-1778371361940.log                           .log        1536843      2602 5/9/2026 5:02:44 PM
+hackerone.com-1778372553074_restored.log                  .log         201845      4949 5/9/2026 5:22:35 PM
+hackerone.com-1778372553074.log                           .log         201845      4949 5/9/2026 5:22:34 PM
+hackerone.com-1780862749288.log                           .log         289405      8187 6/7/2026 1:05:52 PM
+highlight.pack.js                                         .js         1174346      1935 5/10/2026 9:43:52 AM
+index.js                                                  .js            3027        52 6/1/2026 2:56:31 AM
+landing-page-DPTw5rep.js                                  .js          247773         8 5/12/2026 4:20:05 AM
+lazysizes-5.3.min.js                                      .js            7889         3 5/27/2026 11:04:24 PM
+MANIFEST_sha256_restored.txt                              .txt           1486        20 5/12/2026 6:49:47 PM
+MANIFEST_sha256.txt                                       .txt           1486        20 5/15/2026 9:22:40 PM
+mountdeez.sh                                              .sh             868        24 5/16/2026 1:47:04 PM
+mw1.js                                                    .js            1883        52 5/16/2026 1:56:20 PM
+mw2.js                                                    .js            3784        96 5/16/2026 1:54:09 PM
+myservices.cisa.gov-1778430444427.log                     .log          25525       513 5/10/2026 9:27:27 AM
+myservices.cisa.gov-1778430507431.log                     .log         205938      3635 5/10/2026 9:28:29 AM
+myservices.cisa.gov-1778661501025.log                     .log          59088       968 5/13/2026 1:38:23 AM
+new-tab-page-1778303913190_restored.log                   .log           3723        87 5/8/2026 10:18:35 PM
+new-tab-page-1778303913190.log                            .log           3723        87 5/8/2026 10:18:34 PM
+notebooklm.google-1778137859950_restored.log              .log         239722      2522 5/7/2026 12:11:02 AM
+notebooklm.google-1778137859950.log                       .log         239722      2522 5/7/2026 12:11:04 AM
+notebooklm.google-1778140277839_restored.log              .log         134864       877 5/7/2026 12:51:20 AM
+notebooklm.google-1778140277839.log                       .log         134864       877 5/7/2026 12:51:22 AM
+npss_9tdJq98UAZWJkmncHMBuno.br.js                         .js             706         1 5/12/2026 3:53:55 AM
+ntp.msn.com-1778137243438_restored.log                    .log         169248       739 5/7/2026 12:00:46 AM
+ntp.msn.com-1778137243438.log                             .log         169248       739 5/7/2026 12:00:48 AM
+ntp.msn.com-1778233938154_restored.log                    .log        1639961     35675 5/8/2026 2:52:19 AM
+ntp.msn.com-1778233938154.log                             .log        1639961     35675 5/8/2026 2:52:18 AM
+ntp.msn.com-1778234073924_restored.log                    .log          35943       384 5/8/2026 2:54:35 AM
+ntp.msn.com-1778234073924.log                             .log          35943       384 5/8/2026 2:54:34 AM
+ntp.msn.com-1778378300757.log                             .log         372662      3415 5/9/2026 6:58:22 PM
+ntp.msn.com-1778387681125.log                             .log         302519      2558 5/9/2026 9:34:44 PM
+ntp.msn.com-1778658972973.log                             .log         453304      3479 5/13/2026 12:56:16 AM
+ntp.msn.com-1781026929197.log                             .log           5316       109 6/9/2026 10:42:11 AM
+OMNIB binary.md                                           .md            4180        59 6/8/2026 5:01:04 PM
+OMNIB binary2.md                                          .md            3487        63 6/8/2026 5:03:31 PM
+PHOENIX_ARTERY_SHARD_V18.txt                              .txt            172         7 5/9/2026 10:24:37 PM
+ps500.txt                                                 .txt           1168        16 5/16/2026 1:49:56 PM
+pyth1.py                                                  .py            9865       186 5/17/2026 12:08:36 AM
+README.md                                                 .md           13782       334 5/15/2026 9:22:40 PM
+RotateCookiesPage.txt                                     .txt            373         1 6/1/2026 5:08:26 AM
+segmented-control-BqTTrw5B.js                             .js            6986         2 6/12/2026 4:11:03 AM
+sentry-DswLfAC_.js                                        .js           70616         2 5/20/2026 6:51:56 PM
+shinyhunters.com-1778546358458.log                        .log          70038      1326 5/11/2026 5:39:20 PM
+sym.0.sh                                                  .sh            1095        28 5/16/2026 1:43:02 PM
+sym.1.sh                                                  .sh            1072        28 5/16/2026 1:44:01 PM
+symm.1.sh                                                 .sh            1107        28 5/16/2026 1:42:42 PM
+symm.sh                                                   .sh            1101        28 5/16/2026 1:42:27 PM
+symm1.sh                                                  .sh            1127        28 5/16/2026 1:42:14 PM
+teampcp.cyberdigest.international-1779339642518.log       .log          37967       440 5/20/2026 10:00:45 PM
+trusted-types-checker-a86dcafd042e60cf7585cbabd57b0cdb.js .js             176         1 5/9/2026 5:24:14 PM
+V6000_FINAL_SEAL.asc                                      .asc            107         5 5/25/2026 12:48:40 AM
+vulnerability_audit_disclosure_report.md                  .md            8054       106 5/21/2026 9:02:34 AM
+webSRPClientWorker.js                                     .js          241723        11 5/10/2026 2:31:51 PM
+wp-runtime-b991bf095d530c8d.js                            .js           51350         3 5/8/2026 2:19:21 AM
+wslbridge.txt                                             .txt           1067        23 5/16/2026 1:50:43 PM
+www.bing.com-1778132706632_restored.log                   .log          23465       489 5/6/2026 10:45:10 PM
+www.bing.com-1778132706632.log                            .log          23465       489 5/6/2026 10:45:12 PM
+www.bing.com-1778133128125_restored.log                   .log         311559      6237 5/6/2026 10:52:11 PM
+www.bing.com-1778133128125.log                            .log         311559      6237 5/6/2026 10:52:12 PM
+www.bing.com-1778142720197_restored.log                   .log         309468      1838 5/7/2026 1:32:01 AM
+www.bing.com-1778142720197.log                            .log         309468      1838 5/7/2026 1:32:02 AM
+www.bing.com-1778143152742_restored.log                   .log          69467      1393 5/7/2026 1:39:14 AM
+www.bing.com-1778143152742.log                            .log          69467      1393 5/7/2026 1:39:16 AM
+www.bing.com-1778143268186_restored.log                   .log         196012      2632 5/7/2026 1:41:10 AM
+www.bing.com-1778143268186.log                            .log         196012      2632 5/7/2026 1:41:12 AM
+www.bing.com-1778153806703_restored.log                   .log          37314       484 5/7/2026 4:36:48 AM
+www.bing.com-1778153806703.log                            .log          37314       484 5/7/2026 4:36:50 AM
+www.bing.com-1780852916750.log                            .log         532965     10993 6/7/2026 10:22:02 AM
+www.bing.com-1780853180493.log                            .log        4034876     87537 6/7/2026 10:26:29 AM
+www.cisa.gov-1779903082487.log                            .log         102045      1471 5/27/2026 10:31:25 AM
+www.creditkarma.com-1778124919506_restored.log            .log          83708      1434 5/6/2026 8:35:21 PM
+www.creditkarma.com-1778124919506.log                     .log          83708      1434 5/6/2026 8:35:22 PM
+www.creditkarma.com-1778125229791_restored.log            .log         102872      1992 5/6/2026 8:40:32 PM
+www.creditkarma.com-1778125229791.log                     .log         102872      1992 5/6/2026 8:40:34 PM
+www.dhs.gov-1779210427397.log                             .log         178649      2467 5/19/2026 10:07:11 AM
+www.google.com-1778136836919_restored.log                 .log        6297735      3449 5/6/2026 11:54:01 PM
+www.google.com-1778136836919.log                          .log        6297735      3449 5/6/2026 11:54:02 PM
+www.google.com-1779567516874.log                          .log        3342706      5047 5/23/2026 1:18:40 PM
+www.google.com-1780305872749.log                          .log         152779      2143 6/1/2026 2:24:36 AM
+www.google.com-1780321516169.log                          .log          63457      1248 6/1/2026 6:45:21 AM
+www.google.com-1780321602723.log                          .log          88962      1688 6/1/2026 6:46:45 AM
+www.google.com-1780322013411.log                          .log        1652974     18480 6/1/2026 6:53:37 AM
+www.google.com-1781020858184.log                          .log        2625069      1790 6/9/2026 9:01:02 AM
+www.linode.com-1778131002089_restored.log                 .log           5130        10 5/6/2026 10:16:44 PM
+www.linode.com-1778131002089.log                          .log           5130        10 5/6/2026 10:16:46 PM
+www.linode.com-1778131040039_restored.log                 .log          32397       349 5/6/2026 10:17:34 PM
+www.linode.com-1778131040039.log                          .log          32397       349 5/6/2026 10:17:36 PM
+www.microsoft.com-1780591500877.log                       .log          22171       566 6/4/2026 9:45:04 AM
+www.spacex.com-1778509316856.log                          .log        3299718      1696 5/11/2026 7:21:58 AM
+www.spectrum.net-1778130991238_restored.log               .log           8660       153 5/6/2026 10:16:34 PM
+www.spectrum.net-1778130991238.log                        .log           8660       153 5/6/2026 10:16:36 PM
+www.spectrum.net-1778131080356_restored.log               .log         142551      3266 5/6/2026 10:18:02 PM
+www.spectrum.net-1778131080356.log                        .log         142551      3266 5/6/2026 10:18:04 PM
+www.war.gov-1778417954927.log                             .log          10993        93 5/10/2026 5:59:17 AM
+www.war.gov-1779145033706.log                             .log         169460      3310 5/18/2026 3:57:16 PM
+
+
+
+=== C:\Users\enriq\Downloads\Extracted_XIPE-TOTECH-main\dash.cloudflare.com\cdn-cgi\challenge-platform\scripts\jsd ===
+
+FileName Extension SizeBytes LineCount LastWrite
+-------- --------- --------- --------- ---------
+main.js  .js           22963         1 6/7/2026 7:05:26 AM
+
+
+
+=== C:\Users\enriq\Downloads\static.cloudflareinsights.com ===
+
+FileName      Extension SizeBytes LineCount LastWrite
+--------      --------- --------- --------- ---------
+beacon.min.js .js           33228         1 6/7/2026 7:01:49 AM
+
+
+
+=== C:\Users\enriq\src\omnibus ===
+
+FileName                           Extension SizeBytes LineCount LastWrite
+--------                           --------- --------- --------- ---------
+omnibus_corporate_audit_harness.js .js            3634       113 6/12/2026 11:16:25 AM
+omnibus_mictl_visual_only.js       .js            3596       108 6/12/2026 11:11:03 AM
+
+
+
+=== C:\Users\enriq\star-onion-cvss-stack ===
+
+FileName             Extension SizeBytes LineCount LastWrite
+--------             --------- --------- --------- ---------
+fastapi_collector.py .py            2455        84 6/12/2026 3:58:14 AM
+mongodb_schema.js    .js             848        37 6/12/2026 3:58:13 AM
+
+
+
+=== C:\Users\enriq\Videos\Screen Recordings ===
+
+FileName                             Extension SizeBytes LineCount LastWrite
+--------                             --------- --------- --------- ---------
+console-export-2026-5-6_19-14-43.log .log         150087       902 5/6/2026 7:14:46 PM
+console-export-2026-5-6_20-55-53.log .log          67420       758 5/6/2026 8:55:55 PM
+console-export-2026-5-6_20-57-21.log .log          82259       908 5/6/2026 8:57:23 PM
+console-export-2026-5-6_21-26-43.log .log          18833       181 5/6/2026 9:26:45 PM
+
+
+
+Digest complete. Files processed: 345
