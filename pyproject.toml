@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "e-gonz-engine"
+version = "1.0.0"
+description = "High-fidelity manual verification and testing framework engine"
+readme = "README.md"
+authors = [
+    { name = "Lead Analyst", email = "operator@local.internal" }
+]
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Security :: Cryptography"
+]
+dependencies = []
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q --durations=10"
+testpaths = [
+    "tests"
+]
+pythonpath = ["src"]
