@@ -39,14 +39,14 @@ jobs:
         done
 
         # Verify and generate core requirements baseline if completely absent
-        # Bypasses pre-execution setup-python halting routines for empty repositories
+        # Flushed to left boundary inside the heredoc block to prevent unwanted leading spaces in requirements.txt
         if [ ! -f requirements.txt ] && [ ! -f pyproject.toml ]; then
           echo "[!] Target configuration files missing. Generating default requirements.txt fallback..."
           cat << 'EOF' > requirements.txt
-        # Core Testing Platform Dependencies (Strict Pinned Baseline)
-        flake8==7.1.1
-        pytest==8.2.2
-        EOF
+# Core Testing Platform Dependencies (Strict Pinned Baseline)
+flake8==7.1.1
+pytest==8.2.2
+EOF
           echo "  [=>] requirements.txt initialized successfully."
         fi
 
